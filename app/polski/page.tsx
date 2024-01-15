@@ -13,6 +13,9 @@ export default function PolskiPage() {
                     <li>
                         <Link href={"/polski/postacie"} className="text-blue-500">Najważniejsze postacie z lektur</Link>
                     </li>
+                    <li>
+                        <Link href={"/polski/opracowania"} className="text-blue-500">Opracowania pytań z matury ustnej</Link>
+                    </li>
                 </ul>
             </div>
         </div>
