@@ -1,0 +1,246 @@
+{
+    "quiz": [
+        {   
+            "epoka": "ANTYK",
+            "pytanie": "Co charakteryzuje nurt apolliński w sztuce antyku?",
+            "odpowiedzi": [
+                "Oddawanie piękna świata i odwzorowywanie dzieła natury",
+                "Podkreślanie uczuć twórcy i szokowanie odbiorcy",
+                "Zdominowanie epok uduchowione",
+                "Stworzenie normatywnego dzieła Arystotelesa pt. Poetyka"
+            ],
+            "poprawna_odpowiedz": "Oddawanie piękna świata i odwzorowywanie dzieła natury"
+        },
+        {
+            "epoka": "ŚREDNIOWIECZE",
+            "pytanie": "Jakie motywy często pojawiają się w sztuce średniowiecznej?",
+            "odpowiedzi": [
+                "Motywy mitologiczne",
+                "Tańce śmierci i portrety kościotrupów",
+                "Harmonia, symetria, doskonałe proporcje",
+                "Moda na wspaniałe ogrody i klasyczne budowle"
+            ],
+            "poprawna_odpowiedz": "Tańce śmierci i portrety kościotrupów"
+        },
+        {
+            "epoka": "RENESANS",
+            "pytanie": "Jakie wartości cenili artyści renesansu?",
+            "odpowiedzi": [
+                "Harmonia, symetria, doskonałe proporcje",
+                "Motywy mitologiczne",
+                "Strzeliste katedry gotyckie",
+                "Moda na wspaniałe ogrody i klasyczne budowle"
+            ],
+            "poprawna_odpowiedz": "Harmonia, symetria, doskonałe proporcje"
+        },
+        {
+            "epoka": "BAROK",
+            "pytanie": "Jaki cel stawiali przed sobą artyści epoki baroku?",
+            "odpowiedzi": [
+                "Oddawanie piękna świata i odwzorowywanie dzieła natury",
+                "Szokowanie odbiorcy, przepych, barokowy rozmach",
+                "Podkreślanie uczuć twórcy i szokowanie odbiorcy",
+                "Stworzenie normatywnego dzieła Arystotelesa pt. Poetyka"
+            ],
+            "poprawna_odpowiedz": "Szokowanie odbiorcy, przepych, barokowy rozmach"
+        },
+        {
+            "epoka": "OŚWIECENIE",
+            "pytanie": "Co charakteryzuje główny nurt w sztuce i literaturze oświecenia?",
+            "odpowiedzi": [
+                "Klasycyzm, moda na wspaniałe ogrody i klasyczne budowle",
+                "Podkreślanie uczuć twórcy i szokowanie odbiorcy",
+                "Mimetyzm, naśladowanie rzeczywistości",
+                "Ekspresja uczuć, dysharmonia, niepokój"
+            ],
+            "poprawna_odpowiedz": "Klasycyzm, moda na wspaniałe ogrody i klasyczne budowle"
+        },
+        {
+            "epoka": "ROMANTYZM",
+            "pytanie": "Jakie wartości dominują w sztuce epoki romantyzmu?",
+            "odpowiedzi": [
+                "Harmonia, symetria, doskonałe proporcje",
+                "Rewolucja, ekspresja uczuć, dysharmonia",
+                "Motywy mitologiczne",
+                "Szokowanie odbiorcy, przepych, barokowy rozmach"
+            ],
+            "poprawna_odpowiedz": "Rewolucja, ekspresja uczuć, dysharmonia"
+        },
+        {
+            "epoka": "POZYTYWIZM REALIZM",
+            "pytanie": "Co charakteryzuje dominujące nurty w sztuce epoki pozytywizmu i realizmu?",
+            "odpowiedzi": [
+                "Mimetyzm, naśladowanie rzeczywistości",
+                "Szokowanie odbiorcy, przepych, barokowy rozmach",
+                "Ekspresja uczuć, dysharmonia, niepokój",
+                "Klasycyzm, moda na wspaniałe ogrody i klasyczne budowle"
+            ],
+            "poprawna_odpowiedz": "Mimetyzm, naśladowanie rzeczywistości"
+        },
+        {
+            "epoka": "MŁODA POLSKA MODERNIZM",
+            "pytanie": "Jaki prąd artystyczny dominuje pod koniec XIX i na początku XX wieku?",
+            "odpowiedzi": [
+                "Impresjonizm i symbolizm",
+                "Klasycyzm i rokoko",
+                "Ekspresjonizm i kubizm",
+                "Barok i manieryzm"
+            ],
+            "poprawna_odpowiedz": "Impresjonizm i symbolizm"
+        },
+        {
+            "epoka": "DWUDZIESTOLECIE MIEDZYWOJENNE",
+            "pytanie": "Jakie prądy artystyczne dominują w okresie międzywojennym?",
+            "odpowiedzi": [
+                "Rozkwit realizmu i akademizmu",
+                "Ekspresjonizm i kubizm",
+                "Impresjonizm i symbolizm",
+                "Surrealizm i abstrakcjonizm"
+            ],
+            "poprawna_odpowiedz": "Surrealizm i abstrakcjonizm"
+        },
+        {
+            "epoka": "II WOJNA ŚWIATOWA",
+            "pytanie": "W jaki sposób sztuka reaguje na II wojnę światową?",
+            "odpowiedzi": [
+                "Rozkwit impresjonizmu",
+                "Ruch abstrakcjonistyczny",
+                "Plakat, ulotka, podziemny tomik wierszy, teatr",
+                "Pop-art i sztuka filmowa"
+            ],
+            "poprawna_odpowiedz": "Plakat, ulotka, podziemny tomik wierszy, teatr"
+        },
+        {
+            "epoka": "CZASY WSPÓŁCZESNE",
+            "pytanie": "Jakie cechy charakteryzują sztukę współczesną?",
+            "odpowiedzi": [
+                "Mimetyzm i naśladowanie rzeczywistości",
+                "Czerpanie z tradycji i klasyczne wzorce",
+                "Poszukiwanie nowych form wyrazu i eksperymentowanie",
+                "Utrzymanie się w ramach norm i kanonów"
+            ],
+            "poprawna_odpowiedz": "Poszukiwanie nowych form wyrazu i eksperymentowanie"
+        },
+        {
+            "epoka": "ANTYK",
+            "pytanie": "Jaka instytucja z epoki antyku wprowadziła mecenat artystyczny?",
+            "odpowiedzi": [
+                "Kościoły",
+                "Banki",
+                "Państwo",
+                "Rodziny szlacheckie"
+            ],
+            "poprawna_odpowiedz": "Państwo"
+        },
+        {
+            "epoka": "ŚREDNIOWIECZE",
+            "pytanie": "Jaki motyw jest charakterystyczny dla sztuki średniowiecznej, symbolizujący przemijanie?",
+            "odpowiedzi": [
+                "Motywy mitologiczne",
+                "Tańce śmierci",
+                "Harmonia i proporcje",
+                "Podkreślanie uczuć twórcy"
+            ],
+            "poprawna_odpowiedz": "Tańce śmierci"
+        },
+        {
+            "epoka": "RENESANS",
+            "pytanie": "Kto jest uważany za mistrza renesansu, zdolnego doskonale uchwycić ludzką anatomię?",
+            "odpowiedzi": [
+                "Michał Anioł",
+                "Leonardo da Vinci",
+                "Rafael",
+                "Donatello"
+            ],
+            "poprawna_odpowiedz": "Leonardo da Vinci"
+        },
+        {
+            "epoka": "BAROK",
+            "pytanie": "Co charakteryzuje postacie z epoki baroku?",
+            "odpowiedzi": [
+                "Doskonałe proporcje i harmonia",
+                "Szokowanie odbiorcy, przepych, rozmach",
+                "Motywy mitologiczne",
+                "Abstrakcja i eksperymentowanie"
+            ],
+            "poprawna_odpowiedz": "Szokowanie odbiorcy, przepych, rozmach"
+        },
+        {
+            "epoka": "OŚWIECENIE",
+            "pytanie": "Kto określił normy dotyczące literatury w epoce oświecenia?",
+            "odpowiedzi": [
+                "Michał Anioł",
+                "Leonardo da Vinci",
+                "Boileau",
+                "Goethe"
+            ],
+            "poprawna_odpowiedz": "Boileau"
+        },
+        {
+            "epoka": "ROMANTYZM",
+            "pytanie": "Czym charakteryzuje się ekspresja uczuć w literaturze romantyzmu?",
+            "odpowiedzi": [
+                "Mimetyzm i naśladowanie rzeczywistości",
+                "Rewolucja, dysharmonia, niepokój",
+                "Klasycyzm i symetria",
+                "Podkreślanie uczuć twórcy i szokowanie odbiorcy"
+            ],
+            "poprawna_odpowiedz": "Rewolucja, dysharmonia, niepokój"
+        },
+        {
+            "epoka": "POZYTYWIZM\nREALIZM",
+            "pytanie": "Jakie są główne różnice między akademizmem a naturalizmem?",
+            "odpowiedzi": [
+                "Akademizm upiększa, naturalizm ukazuje życie takim, jakie jest",
+                "Obie szkoły dążą do abstrakcji",
+                "Obie szkoły skupiają się na motywach mitologicznych",
+                "Akademizm podkreśla fałsz, naturalizm ukazuje idealizację życia"
+            ],
+            "poprawna_odpowiedz": "Akademizm upiększa, naturalizm ukazuje życie takim, jakie jest"
+        },
+        {
+            "epoka": "MŁODA POLSKA\nMODERNIZM",
+            "pytanie": "Który prąd artystyczny dominuje w sztuce końca XIX i początku XX wieku?",
+            "odpowiedzi": [
+                "Rokoko i sentymentalizm",
+                "Impresjonizm i symbolizm",
+                "Barok i manieryzm",
+                "Ekspresjonizm i kubizm"
+            ],
+            "poprawna_odpowiedz": "Impresjonizm i symbolizm"
+        },
+        {
+            "epoka": "DWUDZIESTOLECIE\nMIEDZYWOJENNE",
+            "pytanie": "Co charakteryzuje abstrakcjonizm w sztuce międzywojennej?",
+            "odpowiedzi": [
+                "Oddawanie piękna świata i odwzorowywanie dzieła natury",
+                "Czerpanie z tradycji i klasyczne wzorce",
+                "Eksperymentowanie i odejście od mimetyzmu",
+                "Ekspresja uczuć, dysharmonia, niepokój"
+            ],
+            "poprawna_odpowiedz": "Eksperymentowanie i odejście od mimetyzmu"
+        },
+        {
+            "epoka": "II WOJNA\nŚWIATOWA",
+            "pytanie": "W jaki sposób sztuka reaguje na traumatyczne wydarzenia II wojny światowej?",
+            "odpowiedzi": [
+                "Rozkwit impresjonizmu",
+                "Surrealizm i abstrakcjonizm",
+                "Podtrzymywanie tradycji klasycznej",
+                "Pop-art i sztuka filmowa"
+            ],
+            "poprawna_odpowiedz": "Surrealizm i abstrakcjonizm"
+        },
+        {
+            "epoka": "CZASY WSPÓŁCZESNE",
+            "pytanie": "W jakim kierunku ewoluowała sztuka w czasach współczesnych?",
+            "odpowiedzi": [
+                "Mimetyzm i naśladowanie rzeczywistości",
+                "Odejście od tradycji i eksperymentowanie",
+                "Czerpanie z klasycznych wzorców",
+                "Utrzymywanie się w ramach norm i kanonów"
+            ],
+            "poprawna_odpowiedz": "Odejście od tradycji i eksperymentowanie"
+        }
+    ]
+}
