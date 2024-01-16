@@ -6,23 +6,11 @@ import React, { useState, useEffect } from 'react';
 
 export default function OpracowaniaPage() {
     const [jsonData, setJsonData] = useState<any>(null);
-    const [lekturaIdx, setLekturaIdx] = useState<number | null>(null);
-    const [opracowanieIdx, setOpracowanieIdx] = useState<number | null>(null);
-
-    const handleShowingOpracowanie = (lektura: number, opracowanie: number) => {
-        setLekturaIdx(lektura);
-        setOpracowanieIdx(opracowanie);
-    };
-
-    const handleBackFromOpracowanie = () => {
-        setLekturaIdx(null);
-        setOpracowanieIdx(null);
-    };
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/opracowania/pytania_jawne.json');
+                const response = await fetch('/data/opracowania/pytania_jawne.json', { cache: "force-cache" });
                 const data = await response.json();
                 setJsonData(data);
             } catch (error) {
@@ -41,18 +29,6 @@ export default function OpracowaniaPage() {
         )
     }
 
-    if (lekturaIdx != null && opracowanieIdx != null) {
-        return (
-            <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20'>
-                <h1 className='text-center text-3xl font-bold my-10'>Opracowanie pytania:</h1>
-                <button className='text-blue-500 pb-5' onClick={handleBackFromOpracowanie}>&lt;&lt; Powrót</button>
-                <h2 className='font-bold mb-10'>{jsonData[lekturaIdx].opracowania[opracowanieIdx].pytanie}</h2>
-
-                <p className='text-justify'>{jsonData[lekturaIdx].opracowania[opracowanieIdx].opracowanie}</p>
-            </div>
-        );
-    }
-
     return (
         <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20'>
             <h1 className='text-center text-3xl font-bold my-10'>Omówienia jawnych pytań z matury ustnej</h1>
@@ -63,7 +39,7 @@ export default function OpracowaniaPage() {
                     <ul className='list-disc'>
                         {value.opracowania.map((opr: any, idx2: any) => (
                             <li key={idx2}>
-                                <Link href="" className="text-blue-500" onClick={() => handleShowingOpracowanie(idx, idx2)}>{opr.pytanie}</Link>
+                                <Link href={`/polski/opracowania/${idx}/${idx2}`} className="text-blue-500">{opr.pytanie}</Link>
                             </li>
                         ))}
                     </ul>
