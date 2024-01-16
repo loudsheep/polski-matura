@@ -43,7 +43,7 @@ export default function OpracowaniaPage() {
 
     if (lekturaIdx != null && opracowanieIdx != null) {
         return (
-            <div className='w-1/2 mx-auto flex-col items-center mb-20'>
+            <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20'>
                 <h1 className='text-center text-3xl font-bold my-10'>Opracowanie pytania:</h1>
                 <button className='text-blue-500 pb-5' onClick={handleBackFromOpracowanie}>&lt;&lt; Powrót</button>
                 <h2 className='font-bold mb-10'>{jsonData[lekturaIdx].opracowania[opracowanieIdx].pytanie}</h2>
@@ -54,9 +54,9 @@ export default function OpracowaniaPage() {
     }
 
     return (
-        <div className='w-1/2 mx-auto flex-col items-center mb-20'>
+        <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20'>
             <h1 className='text-center text-3xl font-bold my-10'>Omówienia jawnych pytań z matury ustnej</h1>
-            <h2></h2>
+            <h2 className='text-center text-lg my-10'>Jeżeli tytuł książki się powtarza niżej i pytania nie mają przed sobą numeru to znaczy, że są to pytania usunięte z wymagań ale opracowanie pozostało.</h2>
 
             {jsonData.map((value: any, idx: any) => (
                 <Accordion accordionText={value.tytul} key={idx} className={"p-5"}>

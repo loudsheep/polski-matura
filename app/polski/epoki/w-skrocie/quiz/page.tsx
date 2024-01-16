@@ -60,7 +60,7 @@ export default function EpokiQuizPage() {
     }, []);
 
     return (
-        <div className='w-1/2 mx-auto flex flex-col items-center'>
+        <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex flex-col items-center'>
             {jsonData != null && (
                 <div className='w-full flex flex-col items-center my-20'>
                     <h1 className='text-xl font-bold mb-10'>{jsonData[currentQuestionIdx].pytanie}</h1>

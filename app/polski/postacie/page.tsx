@@ -52,7 +52,7 @@ export default function PostaciePage() {
     }, []);
 
     return (
-        <div className='w-3/4 mx-auto'>
+        <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto'>
             {epoki.map((value, idx) => (
                 <p>{value}</p>
             ))}
