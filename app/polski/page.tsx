@@ -16,6 +16,9 @@ export default function PolskiPage() {
                     <li>
                         <Link href={"/polski/opracowania"} className="text-blue-500">Opracowania pytań z matury ustnej</Link>
                     </li>
+                    <li>
+                        <Link href={"/polski/srodki-stylistyczne"} className="text-blue-500">Środki stylistyczne</Link>
+                    </li>
                 </ul>
             </div>
         </div>
