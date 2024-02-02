@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -10,6 +9,9 @@ export default function Home() {
                 <ul className="list-disc">
                     <li>
                         <Link href={"/polski"} className="text-blue-500">J. polski</Link>
+                    </li>
+                    <li>
+                        <Link href={"/informatyka"} className="text-blue-500">Informatyka</Link>
                     </li>
                 </ul>
             </div>
