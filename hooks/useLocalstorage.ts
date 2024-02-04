@@ -5,16 +5,20 @@ import { useState, useEffect, Dispatch, SetStateAction } from 'react';
 type UseLocalStorageReturnType<T> = [T, Dispatch<SetStateAction<T>>];
 
 function useLocalStorage<T>(key: string, initialValue: T): UseLocalStorageReturnType<T> {
-    let storedValue: any = "";
-    const initial = storedValue ? JSON.parse(storedValue) : initialValue;
-
-    const [value, setValue] = useState<T>(initial);
+    const [value, setValue] = useState<T>(initialValue);
+    const [windowLoaded, setWindowLoaded] = useState<boolean>(false);
 
     useEffect(() => {
-        storedValue = localStorage.getItem(key);
-        localStorage.setItem(key, JSON.stringify(value));
+        if (!windowLoaded) {
+            let storedValue = localStorage.getItem(key);
+            let initial = storedValue ? JSON.parse(storedValue) : initialValue;
+            setValue(initial);
+            setWindowLoaded(true);
+        } else {
+            localStorage.setItem(key, JSON.stringify(value));
+        }
 
-    }, [key, value]);
+    }, [value]);
 
     return [value, setValue];
 }
