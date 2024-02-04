@@ -1,11 +1,13 @@
 'use client';
 
 import Accordion from '@/components/Accordion';
+import useNotes from '@/hooks/useNotes';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 export default function OpracowaniaPage() {
     const [jsonData, setJsonData] = useState<any>(null);
+    const [getNotes, setNotes, hasNotes, lekturaHasNotes] = useNotes('opracowania');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -35,11 +37,17 @@ export default function OpracowaniaPage() {
             <h2 className='text-center text-lg my-10'>Jeżeli tytuł książki się powtarza niżej i pytania nie mają przed sobą numeru to znaczy, że są to pytania usunięte z wymagań ale opracowanie pozostało.</h2>
 
             {jsonData.map((value: any, idx: any) => (
-                <Accordion accordionText={value.tytul} key={idx} className={"p-5"}>
+                <Accordion accordionText={value.tytul} key={idx} className={"p-5"} showNoteIcon={lekturaHasNotes(idx, value.opracowania.length)}>
                     <ul className='list-disc'>
                         {value.opracowania.map((opr: any, idx2: any) => (
-                            <li key={idx2}>
+                            <li key={idx2} className='flex items-start'>
                                 <Link href={`/polski/opracowania/${idx}/${idx2}`} className="text-blue-500">{opr.pytanie}</Link>
+
+                                {hasNotes(idx, idx2) && (
+                                    <span className="material-symbols-outlined text-blue-500" title='Przypisane notatki'>
+                                        description
+                                    </span>
+                                )}
                             </li>
                         ))}
                     </ul>
