@@ -40,14 +40,16 @@ export default function OpracowaniaPage() {
                 <Accordion accordionText={value.tytul} key={idx} className={"p-5"} showNoteIcon={lekturaHasNotes(idx, value.opracowania.length)}>
                     <ul className='list-disc'>
                         {value.opracowania.map((opr: any, idx2: any) => (
-                            <li key={idx2} className='flex items-start'>
-                                <Link href={`/polski/opracowania/${idx}/${idx2}`} className="text-blue-500">{opr.pytanie}</Link>
+                            <li key={idx2}>
+                                <div className='w-full flex items-start'>
+                                    <Link href={`/polski/opracowania/${idx}/${idx2}`} className="text-blue-500">{opr.pytanie}</Link>
 
-                                {hasNotes(idx, idx2) && (
-                                    <span className="material-symbols-outlined text-blue-500" title='Przypisane notatki'>
-                                        description
-                                    </span>
-                                )}
+                                    {hasNotes(idx, idx2) && (
+                                        <span className="material-symbols-outlined text-blue-500" title='Przypisane notatki'>
+                                            description
+                                        </span>
+                                    )}
+                                </div>
                             </li>
                         ))}
                     </ul>

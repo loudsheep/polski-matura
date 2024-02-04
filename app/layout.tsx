@@ -20,8 +20,8 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-                <link rel="icon" href="/icons/white_transparent.png" type="image/png" sizes="128" media="(prefers-color-scheme: dark)"/>
-                <link rel="icon" href="/icons/black_transparent.png" type="image/png" sizes="128" media="(prefers-color-scheme: light)"/>
+                <link rel="icon" href="/icons/white_transparent.png" type="image/png" sizes="128" media="(prefers-color-scheme: dark)" />
+                <link rel="icon" href="/icons/black_transparent.png" type="image/png" sizes="128" media="(prefers-color-scheme: light)" />
             </head>
 
             <body className={inter.className}>
@@ -41,6 +41,9 @@ export default function RootLayout({
                         </button>
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+                                <li>
+                                    <a href="/informatyka" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Informatyka</a>
+                                </li>
                                 <li>
                                     <a href="/polski" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Polski</a>
                                 </li>
