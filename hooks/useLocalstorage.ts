@@ -10,12 +10,21 @@ function useLocalStorage<T>(key: string, initialValue: T): UseLocalStorageReturn
 
     useEffect(() => {
         if (!windowLoaded) {
-            let storedValue = localStorage.getItem(key);
-            let initial = storedValue ? JSON.parse(storedValue) : initialValue;
-            setValue(initial);
-            setWindowLoaded(true);
+            try {
+
+                let storedValue = localStorage.getItem(key);
+                let initial = storedValue ? JSON.parse(storedValue) : initialValue;
+                setValue(initial);
+                setWindowLoaded(true);
+            } catch (e) {
+                setValue([] as any);
+                setWindowLoaded(true);
+            }
         } else {
-            localStorage.setItem(key, JSON.stringify(value));
+            try {
+                localStorage.setItem(key, JSON.stringify(value));
+            } catch (e) {
+            }
         }
 
     }, [value]);
