@@ -75,7 +75,7 @@ export default function OpracowaniePage({ params }: OpracowanieProps) {
             {hasNotes(params.lekturaIdx, params.opracowanieIdx) && (
                 <>
 
-                    <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-100 whitespace-pre-wrap">
+                    <blockquote className="p-4 my-4 border-s-4 border-gray-300 bg-gray-100 whitespace-pre-wrap break-words">
                         <p className="text-xl italic font-medium leading-relaxed text-gray-900">
                             {getNotes(params.lekturaIdx, params.opracowanieIdx)}
                         </p>
