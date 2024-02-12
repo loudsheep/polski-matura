@@ -1,0 +1,164 @@
+[
+    {
+        "sentence": "I am really bad at remembering people's names when I meet them.",
+        "keyword": "MEMORY",
+        "exercise": "I (0) people's names when I meet them.",
+        "answer": "have a bad memory for"
+    },
+    {
+        "sentence": "He lost his job because he was inefficient.",
+        "keyword": "GROUNDS",
+        "exercise": "He lost his job (0) his inefficiency.",
+        "answer": "on the grounds of"
+    },
+    {
+        "sentence": "I'm sorry that I didn't help him.",
+        "keyword": "REGRET",
+        "exercise": "I (0) help him.",
+        "answer": "regret not helping"
+    },
+    {
+        "sentence": "I couldn't go away for the weekend because I didn't have enough money.",
+        "keyword": "PREVENTED",
+        "exercise": "I was (0) for the weekend by lack of money.",
+        "answer": "prevented from going"
+    },
+    {
+        "sentence": "Jane was advised to work harder by her Maths teacher.",
+        "keyword": "RECOMMENDED",
+        "exercise": "The Maths teacher (0) harder.",
+        "answer": "recommended that Jane work"
+    },
+    {
+        "sentence": "This was Peter's biggest challenge to date.",
+        "keyword": "FACED",
+        "exercise": "Peter (0) a bigger challenge before.",
+        "answer": "hasn't faced"
+    },
+    {
+        "sentence": "I wish I had tried harder when I was at school.",
+        "keyword": "REGRET",
+        "exercise": "I really (0) harder when I was at school!",
+        "answer": "wish I had tried"
+    },
+    {
+        "sentence": "I wish people wouldn't talk during the performance – it makes me really uptight.",
+        "keyword": "NERVES",
+        "exercise": "It really (0) people talk during a performance.",
+        "answer": "gets on my nerves when"
+    },
+    {
+        "sentence": "He is so ambitious - he's determined that he'll be successful in the company.",
+        "keyword": "MARK",
+        "exercise": "He is determined (0) successful in the company.",
+        "answer": "to make his mark"
+    },
+    {
+        "sentence": "Can you suggest a way of turning dreams into reality for ambitious people?",
+        "keyword": "TRUE",
+        "exercise": "Can you suggest how (0) dreams into reality for ambitious people?",
+        "answer": "to turn their dreams"
+    },
+    {
+        "sentence": "I don't want to take part in the project.",
+        "keyword": "RATHER",
+        "exercise": "I (0) not take part in the project.",
+        "answer": "would rather"
+    },
+    {
+        "sentence": "I don't have any free time, so I can't come to the theatre with you.",
+        "keyword": "WOULD",
+        "exercise": "If I (0) come to the theatre with you.",
+        "answer": "had free time, I would"
+    },
+    {
+        "sentence": "This milk is bad - it smells terrible!",
+        "keyword": "OFF",
+        "exercise": "This milk (0) - it smells terrible!",
+        "answer": "is off"
+    },
+    {
+        "sentence": "What the archaeologists discovered when they opened the tomb was amazing.",
+        "keyword": "MADE",
+        "exercise": "The (0) when they opened the tomb was amazing.",
+        "answer": "discovery they made"
+    },
+    {
+        "sentence": "People are more interested in history than you might expect.",
+        "keyword": "LESS",
+        "exercise": "You (0) people than you might expect.",
+        "answer": "expect less interest from"
+    },
+    {
+        "sentence": "For me, imagining what life must have been like then is just not possible.",
+        "keyword": "QUITE",
+        "exercise": "I find it (0) what life must have been like then.",
+        "answer": "quite impossible to imagine"
+    },
+    {
+        "sentence": "It's difficult for a poorly performing company to make a profit.",
+        "keyword": "TURN",
+        "exercise": "If a company is performing poorly, it's difficult (0) one.",
+        "answer": "to turn a profit for"
+    },
+    {
+        "sentence": "The failure of the company was incredibly disappointing.",
+        "keyword": "BITTERLY",
+        "exercise": "I (0) the failure of the company.",
+        "answer": "felt bitterly disappointed about"
+    },
+    {
+        "sentence": "The number of people travelling through the airport was highest in August.",
+        "keyword": "REACHED",
+        "exercise": "The number of people travelling through the airport (0) in August.",
+        "answer": "reached its peak"
+    },
+    {
+        "sentence": "There has been a huge increase in tourism this year.",
+        "keyword": "GROWN",
+        "exercise": "Tourism (0) significantly this year.",
+        "answer": "has grown"
+    },
+    {
+        "sentence": "The number of visitors to the island has fallen dramatically.",
+        "keyword": "STEEP",
+        "exercise": "There (0) in the number of visitors to the island.",
+        "answer": "has been a steep decline"
+    },
+    {
+        "sentence": "We have maintained the level of visitors to the museum this year.",
+        "keyword": "STABLE",
+        "exercise": "The number of visitors to the museum (0) this year.",
+        "answer": "has remained stable"
+    },
+    {
+        "sentence": "The shares index fell slightly before recovering to its previous level.",
+        "keyword": "BRIEF",
+        "exercise": "There (0) before it recovered to its previous level.",
+        "answer": "was a brief fall in"
+    },
+    {
+        "sentence": "Although many travel companies had financial difficulties last year, they seem to have recovered now.",
+        "keyword": "TREND",
+        "exercise": "Although many travel companies had financial difficulties last year, it seems as though (0) now.",
+        "answer": "the trend is towards recovery"
+    },
+    {
+        "sentence": "Some people have been saying what a good move emigrating would be.",
+        "keyword": "ARGUED",
+        "exercise": "It (0) emigrating would be a good move.",
+        "answer": "is argued that"
+    },
+    {
+        "sentence": "The size of the population is unlikely to change much in the near future.",
+        "keyword": "STABLE",
+        "exercise": "The size of the population (0) in the near future.",
+        "answer": "is likely to remain stable"
+    },
+    {
+        "sentence": "“I think Joe should seriously reconsider his plans,” said the careers advisor.",
+        "keyword": "RECOMMENDED",
+        "exercise": "The careers advisor (0) Joe to reconsider his plans.",
+        "answer": "recommended Joe reconsider"
+    }
+]
