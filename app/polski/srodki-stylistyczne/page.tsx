@@ -21,7 +21,7 @@ export default function SrodkiPage() {
 
     return (
         <div className='w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center'>
-            <h1 className='text-center text-3xl font-bold my-10'>Epoki literackie w skrócie</h1>
+            <h1 className='text-center text-3xl font-bold my-10'>Środki literackie</h1>
 
             {jsonData && jsonData.map((value: any, idx: any) => (
                 <div key={idx} className='mb-10 pb-5 border-b'>
