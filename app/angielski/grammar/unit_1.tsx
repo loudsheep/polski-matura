@@ -70,13 +70,26 @@ export default function UnitOne() {
             answers: ["nor"]
         }
     ];
+    const [selectedDataset, setSelectedDataset] = useState('');
+
+    const handleChange = (event: any) => {
+        setSelectedDataset(event.target.value);
+    };
 
     const getRandomExercise = () => {
-        const randomIndex = Math.floor(Math.random() * ex2.length);
-        setExercise(ex2[randomIndex]);
-        setIsCorrect(false);
-        setUserAnswer('');
+        if (selectedDataset == "ex2") {
+            const randomIndex = Math.floor(Math.random() * ex2.length);
+            setExercise(ex2[randomIndex]);
+            setIsCorrect(false);
+            setUserAnswer('');
+        } else {
+            const randomIndex = Math.floor(Math.random() * ex1.length);
+            setExercise(ex1[randomIndex]);
+            setIsCorrect(false);
+            setUserAnswer('');
+        }
     };
+
 
     // Function to handle user input
     const handleUserInput = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -219,14 +232,30 @@ export default function UnitOne() {
             )}
             {usedScreen == 1 && (
                 <div>
+                    <div className="flex items-center justify-center">
+                        <div className="flex flex-col items-center">
+                            <label htmlFor="dataset" className="text-lg font-semibold mb-2">Choose Exercise:</label>
+                            <select
+                                id="dataset"
+                                className="border border-gray-300 rounded-md px-3 py-2 mr-2 focus:outline-none focus:ring focus:border-blue-500"
+                                value={selectedDataset}
+                                onChange={handleChange}
+                            >
+                                <option value="">Select Exercise</option>
+                                <option value="ex1">Exercise 1</option>
+                                <option value="ex2">Exercise 2</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="flex flex-col items-center justify-center">
                         <div className="mb-4">
-                            <p className="mb-2">{exercise.sentence != undefined && String(exercise.sentence).replace("(0)", "..........")}</p>
+                            <p className="mb-2">{exercise.sentence != undefined && String(exercise.sentence).replace("(0)", "..........")}   {exercise.fill != '' && (<p>{exercise.fill}</p>)}</p>
                             <input
                                 className="border border-gray-300 rounded-md px-3 py-2 mr-2 focus:outline-none focus:ring focus:border-blue-500"
                                 type="text"
                                 value={userAnswer}
                                 placeholder="Type your answer here"
+                                onChange={handleUserInput}
                             />
                             <button
                                 className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-md focus:outline-none focus:ring focus:border-blue-500"
