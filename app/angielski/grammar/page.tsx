@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
-import UnitOne from "./unit_1";
-import UnitTwo from "./unit_2";
+import UnitOne from "./UnitOne";
+import UnitTwo from "./UnitTwo";
 
 export default function Grammar_Page() {
     const [clickedButton, setClickedButton] = useState<number | null>(null);
