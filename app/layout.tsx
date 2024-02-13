@@ -24,7 +24,7 @@ export default function RootLayout({
             </head>
 
             <body className={inter.className}>
-                <nav className="bg-white border-gray-20">
+                <nav className="bg-white border-gray-20 sticky top-0 left-0 z-10">
                     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                             <span className="material-symbols-outlined">
