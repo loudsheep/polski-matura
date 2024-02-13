@@ -6,6 +6,12 @@ import UnitThree from "./UnitThree";
 import UnitFour from "./UnitFour";
 import UnitFive from "./UnitFive";
 import UnitSix from "./UnitSix";
+import UnitSeven from "./UnitSeven";
+import UnitEight from "./UnitEight";
+import UnitNine from "./UnitNine";
+import UnitTen from "./UnitTen";
+import UnitEleven from "./UnitEleven";
+import UnitTwelve from "./UnitTwelve";
 
 export default function Grammar_Page() {
     const [clickedButton, setClickedButton] = useState<number | null>(null);
@@ -62,6 +68,25 @@ export default function Grammar_Page() {
 
                 {clickedButton == 6 && (
                     <UnitSix></UnitSix>
+                )}
+
+                {clickedButton == 7 && (
+                    <UnitSeven></UnitSeven>
+                )}
+                {clickedButton == 8 && (
+                    <UnitEight></UnitEight>
+                )}
+                {clickedButton == 9 && (
+                    <UnitNine></UnitNine>
+                )}
+                {clickedButton == 10 && (
+                    <UnitTen></UnitTen>
+                )}
+                {clickedButton == 11 && (
+                    <UnitEleven></UnitEleven>
+                )}
+                {clickedButton == 12 && (
+                    <UnitTwelve></UnitTwelve>
                 )}
             </div>
         </div>
