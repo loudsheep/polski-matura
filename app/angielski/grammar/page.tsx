@@ -4,6 +4,8 @@ import UnitOne from "./UnitOne";
 import UnitTwo from "./UnitTwo";
 import UnitThree from "./UnitThree";
 import UnitFour from "./UnitFour";
+import UnitFive from "./UnitFive";
+import UnitSix from "./UnitSix";
 
 export default function Grammar_Page() {
     const [clickedButton, setClickedButton] = useState<number | null>(null);
@@ -25,6 +27,14 @@ export default function Grammar_Page() {
                 <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(2)}>Narrative Tenses</button>
                 <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(3)}>Future Forms</button>
                 <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(4)}>Verb patterns & modals</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(5)}>Substitution & elipsis / Hypothethical meaning</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(6)}>Comparing / Modifying adverbs</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(7)}>Conditionals</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(8)}>Reported Speech</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(9)}>Future in the past</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(10)}>Participle clauses</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(11)}>Passive forms</button>
+                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(12)}>Cohesion & Emphasis</button>
             </div>
 
             <div className="flex-grow p-8">
@@ -44,6 +54,14 @@ export default function Grammar_Page() {
 
                 {clickedButton == 4 && (
                     <UnitFour></UnitFour>
+                )}
+
+                {clickedButton == 5 && (
+                    <UnitFive></UnitFive>
+                )}
+
+                {clickedButton == 6 && (
+                    <UnitSix></UnitSix>
                 )}
             </div>
         </div>
