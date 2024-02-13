@@ -21,7 +21,7 @@ export default function Grammar_Page() {
     return (
         <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20">
 
-            <div className="xl:fixed  xl:left-5 xl:top-28 xl:w-48 bg-gray-100 mt-5 xl:mt-0 text-black flex flex-col items-center z-50 border-gray-500 border-2 rounded-md">
+            <div className="xl:fixed xl:left-5 xl:top-28 xl:w-64 bg-gray-100 mt-5 xl:mt-0 text-black flex flex-col items-center z-50 border-gray-500 border-2 rounded-md">
                 <h2 className="text-xl font-bold mb-4">Tematy</h2>
                 <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(1)}>Simple & Continuous Forms</button>
                 <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(2)}>Narrative Tenses</button>
