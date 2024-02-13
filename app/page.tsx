@@ -14,7 +14,7 @@ export default function Home() {
                         <Link href={"/informatyka"} className="text-blue-500">Informatyka</Link>
                     </li>
                     <li>
-                        <Link href={"/angielski/main-page"} className="text-blue-500">Angielski</Link>
+                        <Link href={"/angielski"} className="text-blue-500">Angielski</Link>
                     </li>
                 </ul>
             </div>
