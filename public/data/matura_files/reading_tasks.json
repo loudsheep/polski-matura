@@ -1,0 +1,78 @@
+[
+    {
+        "type": "multiple choice",
+        "heading": [
+          "The case of the runaway trolley",
+          "EXTRACT FROM A NOVEL",
+          "Could you turn down the volume"
+        ],
+        "text": [
+          "There was nothing particularly interesting about the story of an empty supermarket trolley in York that, driven by high winds, collided with a car. But it was nonetheless reported in detail in the city's Evening Press newspaper. Incredibly, however, this report has led to a record 323 responses on the newspaper's website. The level of debate has been high, with readers attempting to negotiate the moral maze of apportioning blame for the incident. <br> Was it the supermarket, legal owner of the trolley, or was it Julie Bearing, 46, whose newish Citroen suffered a dented wing? Mrs Bearing told the Press that, although unhurt in the collision, she had been wounded by the supermarket's refusal to pay for the damage. <br> Initial responses were of disdain that the press should descend to such trivia; but it soon became apparent that the reporter, Matthew Woodcock, who had written a story of commendable detail and balance, had also in the process touched on matters that went to the very roots of society. <br> The supermarket has a duty to control those trolleys,' said one respondent, claiming it should make customers pay a deposit of £1 for a trolley, which is refunded when it is returned. Mrs Bearing did not, on the whole, draw a great deal of support, several people telling her to calm down, shut up, and claim on her insurance. Yet many people blamed neither Mrs Bearing nor the supermarket, but the trolleys themselves, which appear to be ganging up on humanity. These bise things are becoming a menace to e society. Can't you see they want revenge for their dreary life?' one respondent wrote.",
+          "Nick did not regret agreeing to go. He had long learned to accept the consequences of every decision he took with a degree of equanimity. Regret, then, was hardly the word for it. But consequences hatch slowly, and not always sweetly. The long drive west had reminded him of the point more forcefully with every mile. His past was a hostile country, his present a tranquil plain. By going home he was not only abandoning a refuge, but proclaiming that he no longer needed one-which, naturally, he would have said was self-evidently true. But saying and believing are very different things, as different as noise and silence. And what he heard most through the tinted glass and impact-proof steel of his sleek grey company car... was silence. <br> Sunday would be his eldest brother's fiftieth birthday. A birthday party at Trennor - a gathering of the siblings - would do them all good. It was a summons Nick could not very well ignore. But in luring him down, Irene had admitted that there was more to it than that. 'We need to talk about the future. I don't see how Dad can cope at Trennor on his own much longer. A possibility's cropped up and we'd like your input.' She had declined to be specific over the telephone, hoping, he inferred, to arouse his curiosity as well as his conscience, which she had done, though not as conclusively as she must have hoped. Nick had agreed in the end because he had no reasonable excuse not to.",
+          "You're staring mindlessly into space at the traffic lights when shock waves of sound dent the car's side panels. If you're under thirty, you probably take it in your stride and, with uttermost cool, give a barely perceptible nod of recognition. But if your heart starts pounding and you have an overwhelming desire to hit something, then the chances are you're either the wrong side of forty or completely out of touch or extremely bad-tempered. Or in my case, all three. <br> This is where the story ends for most people, but I wanted to see what would happen if I asked the other driver to turn down the volume. I spotted a white Ford whose stereo was several decibels louder than the aircraft flying overhead, and waited till it had parked up. A young man in a striking yellow vest got out. 'Why should I turn it down,' he said. 'I've paid for it; it's legal.' I try another tack. 'So how loud can it go?' 'Deafening loud,' he laughs. I've spent serious money on this system. Most car stereos just have a lot of bottom, this has got middle and top, too. I've entered competitions with it.' I discover that the cars with the best acoustics are hatchbacks. Bigger cars, such as BMWs, have so much more steel in them that you have to spend a great deal to get the bass to penetrate through the boot. I thank him - it's been an illuminating conversation."
+        ],
+        "questions" : [
+            {
+              "question": "In the writer's opinion, the original story about the trolley",
+              "options": {
+                "A": "was justly criticised on the newspaper's website.",
+                "B": "was an example of a well-written piece of journalism.",
+                "C": "was not worthy of the amount of attention it received.",
+                "D": "was designed to begin a public debate on a serious issue."
+              },
+              "correct_answer": "B"
+            },
+            {
+              "question": "In the final paragraph, the writer is",
+              "options": {
+                "A": "explaining why the topic became so popular.",
+                "B": "commenting on the likely outcome of the dispute.",
+                "C": "reviewing the various contributions to the website.",
+                "D": "ridiculing the opinions of some of those responding."
+              },
+              "correct_answer": "C"
+            },
+            {
+              "question": "How was Nick feeling as he drove westward that evening?",
+              "options": {
+                "A": "sorry that he said he would go",
+                "B": "sad at the thought of returning home",
+                "C": "worried about the length of the journey",
+                "D": "unsure what the results of the trip might be"
+              },
+              "correct_answer": "D"
+            },
+            {
+              "question": "Which phrase used earlier in the text introduces the idea that Irene had intended to 'arouse his curiosity' (line 12)?",
+              "options": {
+                "A": "'abandoning a refuge' (line 4)",
+                "B": "'a summons' (line 9)",
+                "C": "'luring him down' (line 9)",
+                "D": "'cropped up' (line 11)"
+              },
+              "correct_answer": "C"
+            },
+            {
+              "question": "According to the writer, when people under thirty hear loud music in a passing car, they",
+              "options": {
+                "A": "may subtly indicate approval to the driver.",
+                "B": "will avoid revealing their opinion of it.",
+                "C": "are unlikely to pay any attention to it.",
+                "D": "may be keen to hide their annoyance."
+              },
+              "correct_answer": "A"
+            },
+            {
+              "question": "How did the writer feel after talking to the man in the yellow vest?",
+              "options": {
+                "A": "better able to tolerate loud music in cars",
+                "B": "more informed about how car music systems work",
+                "C": "even angrier about the loud music than he was previously",
+                "D": "sorry that he had injured the man's pride in his music system"
+              },
+              "correct_answer": "B"
+            }
+          ]
+      }
+      
+]
