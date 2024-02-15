@@ -15,6 +15,7 @@ import UnitTwelve from "./UnitTwelve";
 
 export default function Grammar_Page() {
     const [clickedButton, setClickedButton] = useState<number | null>(null);
+    const [topicArray, setTopicArray] = useState<any[]>(["Simple & Continuous Forms", "Narrative Tenses", "Future Forms", "Verb patterns & modals", "Substitution & elipsis / Hypothethical meaning", "Comparing / Modifying adverbs", "Conditionals", "Reported Speech", "Future in the past", "Participle clauses", "Passive forms", "Cohesion & Emphasis"])
 
     const handleClick = (buttonNumber: number) => {
         setClickedButton(buttonNumber);
@@ -29,18 +30,9 @@ export default function Grammar_Page() {
 
             <div className="xl:fixed xl:left-5 xl:top-28 xl:w-64 bg-gray-100 mt-5 xl:mt-0 text-black flex flex-col items-center z-50 border-gray-500 border-2 rounded-md">
                 <h2 className="text-xl font-bold mb-4">Tematy</h2>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(1)}>Simple & Continuous Forms</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(2)}>Narrative Tenses</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(3)}>Future Forms</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(4)}>Verb patterns & modals</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(5)}>Substitution & elipsis / Hypothethical meaning</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(6)}>Comparing / Modifying adverbs</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(7)}>Conditionals</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(8)}>Reported Speech</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(9)}>Future in the past</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(10)}>Participle clauses</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(11)}>Passive forms</button>
-                <button style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(12)}>Cohesion & Emphasis</button>
+                {topicArray.map((value, index ) =>
+                    <button key={index} style={{ width: '90%' }} className="text-black px-4 py-2 mb-2 bg-gray-100 hover:bg-gray-200 rounded border-gray-300 border-2" onClick={() => handleClick(index + 1)}>{value}</button>
+                )}
             </div>
 
             <div className="flex-grow p-8">
