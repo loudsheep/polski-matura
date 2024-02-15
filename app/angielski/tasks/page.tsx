@@ -41,7 +41,7 @@ export default function Tasks_Page() {
     }, []);
 
     return (
-        <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center mb-20">
+        <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-3/5 mx-auto flex-col items-center mb-20 text-justify">
             <div className="flex space-x-4 mb-4">
                     {Object.keys(checkedItems).map((content, index) => (
                         <button
