@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 type readingFile = {
     heading :string[],
@@ -7,6 +7,9 @@ type readingFile = {
     questions: any[]
 }
 export default function ReadingTwo({heading, text, type, questions}: readingFile) {
+  useEffect(() => {
+    console.log(localStorage.getItem("taskOne"))
+  }, [])
   return (
     <div>readingTwo</div>
   )

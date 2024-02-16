@@ -18,6 +18,11 @@ export default function Tasks_Page() {
         'Content 1': false,
         'Content 2': false,
         'Content 3': false,
+        'Content 4': false,
+        'Content 5': false,
+        'Content 6': false,
+        'Content 7': false,
+        'Content 8': false,
     });
 
     const handleCheckboxChange = (index : Number) => {
@@ -28,7 +33,7 @@ export default function Tasks_Page() {
             try {
                 const response = await fetch('/data/matura_files/reading_tasks.json');
                 const data = await response.json();
-                console.log(data);
+                //console.log(data);
                 setJsonData(data);
                 const element: readingFile = data[0];
                 setElement(element);
