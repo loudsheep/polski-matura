@@ -1,6 +1,8 @@
+import Contributors from "@/components/Contributors";
+
 export default function ONasPage() {
     return (
-        <div className="w-1/2 mx-auto flex flex-col items-center">
+        <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center">
             <div className="container mx-auto p-8">
                 <h1 className="text-3xl font-bold mb-6">📚 Przygotowanie do Matury - O Nas</h1>
 
@@ -26,15 +28,19 @@ export default function ONasPage() {
                 </section>
 
                 <section className="mb-8">
-                    <h2 className="text-2xl font-bold mb-4">Losowanie zadań</h2>
-                    <p>
-                        Skorzystaj z naszego programu do losowania zadań do wykonania. Wpisz zakres zadań, a my pomożemy Ci wybrać jedno do rozwiązania. Program zapisuje historię wykonanych zadań, abyś mógł śledzić swój postęp.
-                    </p>
+                    <h2 className="text-2xl font-bold mb-4">Angielski</h2>
+
+                    <h3 className="text-xl font-bold mb-2">Zadania Maturalne 📝</h3>
+                    <p>Rozwiąż zadania maturalne z angielskiego, aby lepiej przygotować się do egzaminu.</p>
+
+                    <h3 className="text-xl font-bold mb-2">Powtórka Gramatyki 📚</h3>
+                    <p>Zapoznaj się ponownie z gramatyką angielską, aby być pewnym jej zrozumienia przed maturą.</p>
+
+                    <h3 className="text-xl font-bold mb-2">Słownictwo 📖</h3>
+                    <p>Rozwijaj swoje słownictwo angielskie, ucząc się nowych słów przydatnych na egzaminie.</p>
                 </section>
 
-                <p>
-                    Dziękujemy, że jesteś z nami w tej maturalnej podróży! Powodzenia na egzaminie!
-                </p>
+                <Contributors url="https://api.github.com/repos/loudsheep/polski-matura"></Contributors>
             </div>
         </div >
     )

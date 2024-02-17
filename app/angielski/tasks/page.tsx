@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
-import ReadingOne from "./readingOne";
-import ReadingTwo from "./readingTwo";
+import ReadingOne from "./ReadingOne";
+import ReadingTwo from "./ReadingTwo";
 
 type readingFile = {
     headings: string[],

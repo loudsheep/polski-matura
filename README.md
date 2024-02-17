@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Przygotowanie do Matury
 
-## Getting Started
+## Informatyka
 
-First, run the development server:
+W sekcji Informatyka zgłębisz tajniki nauki o komputerach, algorytmów i programowania.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Polski
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Epoki literackie w skrócie 📖
+Przegląd najważniejszych epok literackich pomoże Ci zrozumieć ewolucję literatury.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Najważniejsze postacie z lektur 🧑‍🏫
+Spotkasz tu kluczowe postacie literackie, które warto znać przed maturą.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Opracowania pytań z matury ustnej 🗣️
+Przygotuj się do rozmowy egzaminacyjnej, korzystając z naszych opracowań pytań.
 
-## Learn More
+### Środki stylistyczne ✒️
+Zapoznaj się z bogatą paletą środków stylistycznych, które pomogą Ci w analizie tekstów.
 
-To learn more about Next.js, take a look at the following resources:
+## Angielski
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Zadania Maturalne 📝
+Rozwiąż zadania maturalne z angielskiego, aby lepiej przygotować się do egzaminu.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Powtórka Gramatyki 📚
+Zapoznaj się ponownie z gramatyką angielską, aby być pewnym jej zrozumienia przed maturą.
 
-## Deploy on Vercel
+### Słownictwo 📖
+Rozwijaj swoje słownictwo angielskie, ucząc się nowych słów przydatnych na egzaminie.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
