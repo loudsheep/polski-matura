@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import ReadingOne from "./ReadingOne";
 import ReadingTwo from "./ReadingTwo";
+import ReadingTri from "./ReadingTri";
 
 type readingFile = {
     headings: string[],
@@ -14,6 +15,8 @@ export default function Tasks_Page() {
     const [jsonData, setJsonData] = useState<any[] | null>([]);
     const [selectedTask, setSelectedTask] = useState<Number | null>(1);
     const [element, setElement] = useState<any | null>(null);
+    const [elementTwo, setElementTwo] = useState<any | null>(null);
+    const [elementTri, setElementTri] = useState<any | null>(null);
 
     const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({
         'Content 1': false,
@@ -37,6 +40,10 @@ export default function Tasks_Page() {
                 //console.log(data);
                 setJsonData(data);
                 const element: readingFile = data[0];
+                const ele2 : readingFile = data[1];
+                const ele3 : readingFile = data[2];
+                setElementTri(ele3);
+                setElementTwo(ele2);
                 setElement(element);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
@@ -98,7 +105,13 @@ export default function Tasks_Page() {
             {element && selectedTask == 2 && (
                 <div>
                     <h1 className="text-3xl font-bold mb-4"> Task {String(selectedTask)}</h1>
-                    <ReadingTwo type={element.type} heading={element.heading} text={element.text} questions={element.questions}></ReadingTwo>
+                    <ReadingTwo type={elementTwo.type} heading={elementTwo.heading} text={elementTwo.text} questions={elementTwo.questions}></ReadingTwo>
+                </div>
+            )}
+            {element && selectedTask == 3 && (
+                <div>
+                    <h1 className="text-3xl font-bold mb-4"> Task {String(selectedTask)}</h1>
+                    <ReadingTri type={elementTri.type} heading={elementTri.heading} text={elementTri.text} questions={elementTri.questions}></ReadingTri>
                 </div>
             )}
         </div>

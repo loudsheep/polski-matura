@@ -11,7 +11,6 @@ function useLocalStorage<T>(key: string, initialValue: T): UseLocalStorageReturn
     useEffect(() => {
         if (!windowLoaded) {
             try {
-
                 let storedValue = localStorage.getItem(key);
                 let initial = storedValue ? JSON.parse(storedValue) : initialValue;
                 setValue(initial);

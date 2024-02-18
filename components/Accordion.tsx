@@ -43,7 +43,7 @@ export default function Accordion({ children, accordionText, className, showNote
             </h2>
 
             <div id="accordion-collapse-body-1" className={isAccordionOpen ? "" : "hidden"}>
-                <div className="py-5 px-10 border border-b-0 border-gray-200">
+                <div className="py-5 px-10 border border-b-0 border-gray-200 text-justify">
                     {children}
                 </div>
             </div>

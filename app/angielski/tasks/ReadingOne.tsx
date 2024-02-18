@@ -30,7 +30,7 @@ export default function ReadingOne({heading, text, type, questions}: readingFile
     return (
             <div className="m-8">
                 {heading && heading.map((v2: any, idx: any) =>
-                    <div key={idx}>
+                    <div key={idx} className="my-container whitespace-pre-line">
                         <h1 className="text-3xl font-bold mb-4">{heading[idx]}</h1>
                         <p className="text-base text-gray-700 leading-relaxed mb-4">{text[idx]}</p>
                     </div>

@@ -1,78 +1,144 @@
 [
-    {
-        "type": "multiple choice",
-        "heading": [
-          "The case of the runaway trolley",
-          "EXTRACT FROM A NOVEL",
-          "Could you turn down the volume"
-        ],
-        "text": [
-          "There was nothing particularly interesting about the story of an empty supermarket trolley in York that, driven by high winds, collided with a car. But it was nonetheless reported in detail in the city's Evening Press newspaper. Incredibly, however, this report has led to a record 323 responses on the newspaper's website. The level of debate has been high, with readers attempting to negotiate the moral maze of apportioning blame for the incident. \n Was it the supermarket, legal owner of the trolley, or was it Julie Bearing, 46, whose newish Citroen suffered a dented wing? Mrs Bearing told the Press that, although unhurt in the collision, she had been wounded by the supermarket's refusal to pay for the damage. \n Initial responses were of disdain that the press should descend to such trivia; but it soon became apparent that the reporter, Matthew Woodcock, who had written a story of commendable detail and balance, had also in the process touched on matters that went to the very roots of society. \n The supermarket has a duty to control those trolleys,' said one respondent, claiming it should make customers pay a deposit of £1 for a trolley, which is refunded when it is returned. Mrs Bearing did not, on the whole, draw a great deal of support, several people telling her to calm down, shut up, and claim on her insurance. Yet many people blamed neither Mrs Bearing nor the supermarket, but the trolleys themselves, which appear to be ganging up on humanity. These bise things are becoming a menace to e society. Can't you see they want revenge for their dreary life?' one respondent wrote.",
-          "Nick did not regret agreeing to go. He had long learned to accept the consequences of every decision he took with a degree of equanimity. Regret, then, was hardly the word for it. But consequences hatch slowly, and not always sweetly. The long drive west had reminded him of the point more forcefully with every mile. His past was a hostile country, his present a tranquil plain. By going home he was not only abandoning a refuge, but proclaiming that he no longer needed one-which, naturally, he would have said was self-evidently true. But saying and believing are very different things, as different as noise and silence. And what he heard most through the tinted glass and impact-proof steel of his sleek grey company car... was silence. \n Sunday would be his eldest brother's fiftieth birthday. A birthday party at Trennor - a gathering of the siblings - would do them all good. It was a summons Nick could not very well ignore. But in luring him down, Irene had admitted that there was more to it than that. 'We need to talk about the future. I don't see how Dad can cope at Trennor on his own much longer. A possibility's cropped up and we'd like your input.' She had declined to be specific over the telephone, hoping, he inferred, to arouse his curiosity as well as his conscience, which she had done, though not as conclusively as she must have hoped. Nick had agreed in the end because he had no reasonable excuse not to.",
-          "You're staring mindlessly into space at the traffic lights when shock waves of sound dent the car's side panels. If you're under thirty, you probably take it in your stride and, with uttermost cool, give a barely perceptible nod of recognition. But if your heart starts pounding and you have an overwhelming desire to hit something, then the chances are you're either the wrong side of forty or completely out of touch or extremely bad-tempered. Or in my case, all three. \n This is where the story ends for most people, but I wanted to see what would happen if I asked the other driver to turn down the volume. I spotted a white Ford whose stereo was several decibels louder than the aircraft flying overhead, and waited till it had parked up. A young man in a striking yellow vest got out. 'Why should I turn it down,' he said. 'I've paid for it; it's legal.' I try another tack. 'So how loud can it go?' 'Deafening loud,' he laughs. I've spent serious money on this system. Most car stereos just have a lot of bottom, this has got middle and top, too. I've entered competitions with it.' I discover that the cars with the best acoustics are hatchbacks. Bigger cars, such as BMWs, have so much more steel in them that you have to spend a great deal to get the bass to penetrate through the boot. I thank him - it's been an illuminating conversation."
-        ],
-        "questions" : [
-            {
-              "question": "In the writer's opinion, the original story about the trolley",
-              "options": {
-                "A": "was justly criticised on the newspaper's website.",
-                "B": "was an example of a well-written piece of journalism.",
-                "C": "was not worthy of the amount of attention it received.",
-                "D": "was designed to begin a public debate on a serious issue."
-              },
-              "correct_answer": "B"
-            },
-            {
-              "question": "In the final paragraph, the writer is",
-              "options": {
-                "A": "explaining why the topic became so popular.",
-                "B": "commenting on the likely outcome of the dispute.",
-                "C": "reviewing the various contributions to the website.",
-                "D": "ridiculing the opinions of some of those responding."
-              },
-              "correct_answer": "C"
-            },
-            {
-              "question": "How was Nick feeling as he drove westward that evening?",
-              "options": {
-                "A": "sorry that he said he would go",
-                "B": "sad at the thought of returning home",
-                "C": "worried about the length of the journey",
-                "D": "unsure what the results of the trip might be"
-              },
-              "correct_answer": "D"
-            },
-            {
-              "question": "Which phrase used earlier in the text introduces the idea that Irene had intended to 'arouse his curiosity' (line 12)?",
-              "options": {
-                "A": "'abandoning a refuge' (line 4)",
-                "B": "'a summons' (line 9)",
-                "C": "'luring him down' (line 9)",
-                "D": "'cropped up' (line 11)"
-              },
-              "correct_answer": "C"
-            },
-            {
-              "question": "According to the writer, when people under thirty hear loud music in a passing car, they",
-              "options": {
-                "A": "may subtly indicate approval to the driver.",
-                "B": "will avoid revealing their opinion of it.",
-                "C": "are unlikely to pay any attention to it.",
-                "D": "may be keen to hide their annoyance."
-              },
-              "correct_answer": "A"
-            },
-            {
-              "question": "How did the writer feel after talking to the man in the yellow vest?",
-              "options": {
-                "A": "better able to tolerate loud music in cars",
-                "B": "more informed about how car music systems work",
-                "C": "even angrier about the loud music than he was previously",
-                "D": "sorry that he had injured the man's pride in his music system"
-              },
-              "correct_answer": "B"
-            }
-          ]
+  {
+    "type": "multiple choice",
+    "heading": [
+      "The case of the runaway trolley",
+      "EXTRACT FROM A NOVEL",
+      "Could you turn down the volume"
+    ],
+    "text": [
+      "There was nothing particularly interesting about the story of an empty supermarket trolley in York that, driven by high winds, collided with a car. But it was nonetheless reported in detail in the city's Evening Press newspaper. Incredibly, however, this report has led to a record 323 responses on the newspaper's website. The level of debate has been high, with readers attempting to negotiate the moral maze of apportioning blame for the incident. \n Was it the supermarket, legal owner of the trolley, or was it Julie Bearing, 46, whose newish Citroen suffered a dented wing? Mrs Bearing told the Press that, although unhurt in the collision, she had been wounded by the supermarket's refusal to pay for the damage. \n Initial responses were of disdain that the press should descend to such trivia; but it soon became apparent that the reporter, Matthew Woodcock, who had written a story of commendable detail and balance, had also in the process touched on matters that went to the very roots of society. \n The supermarket has a duty to control those trolleys,' said one respondent, claiming it should make customers pay a deposit of £1 for a trolley, which is refunded when it is returned. Mrs Bearing did not, on the whole, draw a great deal of support, several people telling her to calm down, shut up, and claim on her insurance. Yet many people blamed neither Mrs Bearing nor the supermarket, but the trolleys themselves, which appear to be ganging up on humanity. These bise things are becoming a menace to e society. Can't you see they want revenge for their dreary life?' one respondent wrote.",
+      "Nick did not regret agreeing to go. He had long learned to accept the consequences of every decision he took with a degree of equanimity. Regret, then, was hardly the word for it. But consequences hatch slowly, and not always sweetly. The long drive west had reminded him of the point more forcefully with every mile. His past was a hostile country, his present a tranquil plain. By going home he was not only abandoning a refuge, but proclaiming that he no longer needed one-which, naturally, he would have said was self-evidently true. But saying and believing are very different things, as different as noise and silence. And what he heard most through the tinted glass and impact-proof steel of his sleek grey company car... was silence. \n Sunday would be his eldest brother's fiftieth birthday. A birthday party at Trennor - a gathering of the siblings - would do them all good. It was a summons Nick could not very well ignore. But in luring him down, Irene had admitted that there was more to it than that. 'We need to talk about the future. I don't see how Dad can cope at Trennor on his own much longer. A possibility's cropped up and we'd like your input.' She had declined to be specific over the telephone, hoping, he inferred, to arouse his curiosity as well as his conscience, which she had done, though not as conclusively as she must have hoped. Nick had agreed in the end because he had no reasonable excuse not to.",
+      "You're staring mindlessly into space at the traffic lights when shock waves of sound dent the car's side panels. If you're under thirty, you probably take it in your stride and, with uttermost cool, give a barely perceptible nod of recognition. But if your heart starts pounding and you have an overwhelming desire to hit something, then the chances are you're either the wrong side of forty or completely out of touch or extremely bad-tempered. Or in my case, all three. \n This is where the story ends for most people, but I wanted to see what would happen if I asked the other driver to turn down the volume. I spotted a white Ford whose stereo was several decibels louder than the aircraft flying overhead, and waited till it had parked up. A young man in a striking yellow vest got out. 'Why should I turn it down,' he said. 'I've paid for it; it's legal.' I try another tack. 'So how loud can it go?' 'Deafening loud,' he laughs. I've spent serious money on this system. Most car stereos just have a lot of bottom, this has got middle and top, too. I've entered competitions with it.' I discover that the cars with the best acoustics are hatchbacks. Bigger cars, such as BMWs, have so much more steel in them that you have to spend a great deal to get the bass to penetrate through the boot. I thank him - it's been an illuminating conversation."
+    ],
+    "questions": [
+      {
+        "question": "In the writer's opinion, the original story about the trolley",
+        "options": {
+          "A": "was justly criticised on the newspaper's website.",
+          "B": "was an example of a well-written piece of journalism.",
+          "C": "was not worthy of the amount of attention it received.",
+          "D": "was designed to begin a public debate on a serious issue."
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "In the final paragraph, the writer is",
+        "options": {
+          "A": "explaining why the topic became so popular.",
+          "B": "commenting on the likely outcome of the dispute.",
+          "C": "reviewing the various contributions to the website.",
+          "D": "ridiculing the opinions of some of those responding."
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "How was Nick feeling as he drove westward that evening?",
+        "options": {
+          "A": "sorry that he said he would go",
+          "B": "sad at the thought of returning home",
+          "C": "worried about the length of the journey",
+          "D": "unsure what the results of the trip might be"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Which phrase used earlier in the text introduces the idea that Irene had intended to 'arouse his curiosity' (line 12)?",
+        "options": {
+          "A": "'abandoning a refuge' (line 4)",
+          "B": "'a summons' (line 9)",
+          "C": "'luring him down' (line 9)",
+          "D": "'cropped up' (line 11)"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "According to the writer, when people under thirty hear loud music in a passing car, they",
+        "options": {
+          "A": "may subtly indicate approval to the driver.",
+          "B": "will avoid revealing their opinion of it.",
+          "C": "are unlikely to pay any attention to it.",
+          "D": "may be keen to hide their annoyance."
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "How did the writer feel after talking to the man in the yellow vest?",
+        "options": {
+          "A": "better able to tolerate loud music in cars",
+          "B": "more informed about how car music systems work",
+          "C": "even angrier about the loud music than he was previously",
+          "D": "sorry that he had injured the man's pride in his music system"
+        },
+        "correct_answer": "B"
       }
-      
+    ]
+  },
+  {
+    "heading": [
+      "On a wing and a woof \n Michael Cassell's close encounter with a paragliding puppy inspires a desire to try out the sport"
+    ],
+    "type": "insert paragraphs",
+    "text": [
+      "I love dogs, but a dog's place is at your feet, not flying above your head. I was holidaying on the Côte d'Azure in France, and I couldn't quite believe what I was seeing. I think it was some form of terrier, although it was hard to tell because it wore goggles and a little bandana and was moving at some speed as it passed over the house.",
+      "I kept my eye on the pair and saw them land on the beach, where they received warm applause from early bathers. I'm sure they were breaking every rule in the book and if the police had intervened I imagine the dog at least could have lost his licence.",
+      "Paragliding, by contrast, relies entirely on thermic air and the skill of its pilot; to take to the skies on such a lightweight contraption is to soar free and silently in the arms of mother nature. The sport has spawned more than 650 clubs across France, and fans travel from across Europe to enjoy the mix of wild scenery and placid weather that the country offers. The most popular regions are the Alps, the Pyrenees and Corsica, and there are plenty of paragliding schools in those regions that will get beginners off the ground in two or three days.",
+      "The Côte d'Azure, however, is not in itself natural paragliding country, and we have found ourselves under the flight path of a growing number of enthusiasts simply because of the jagged ridge of red rock that towers three hundred metres above sea level behind our house - the best jumping-off spot for miles around.",
+      "It's a forty-five-minute climb from the beach to this ridge-top and although the gliders weigh around 7kg, there are a harness and helmet and boots and other bits and pieces to carry as well. I calculate that each flight lasts about four minutes and some of the keenest fans trudge past my gate three or four times a day. I tucked in behind one group to watch them get ready for the jump.",
+      "The reality, of course, is that with proper training and preparation paragliding is a very safe sport; there are accidents, but most are rarely that serious and usually occur on launching or landing. This group, however, knew their stuff. To forsake a long run and lift off for a virtual leap into space takes experience and supreme con- fidence.",
+      "I'm not a natural-born daredevil and wouldn't myself have found that experience thrilling. But I am nevertheless sorely tempted to have a go - maybe on a gently sloping hillside. 'You'll need a medical certificate at your age,' declared one of the group, instantly extinguishing the flame of adventure. But then if puppies can paraglide, why shouldn't an old dog like me?"
+    ],
+    "questions": [
+      {
+        "options": [
+          "But this is no place for beginners. There are no gentle, grass-covered slopes to run down - the rocks are vertical and unyielding and anyone who leaps off them could easily get into difficulties unless they know what they are doing.",
+          "For the more courageous, the pleasures of advanced thermalling await, but if you are of a more timid disposition and want to hold someone's hand, you can take a tandem course; if you are a dog, the experience must be like sticking your head out of the car window and letting the wind beat your ears round the back of your head.",
+          "Not all of these untrained novices reach the beach, however. In recent days, one paraglider has landed on a neighbour's pool terrace, wrecking several terracotta pots and a previously unblemished flight record.",
+          "Despite such unexpected intrusions on my privacy, I've decided that paragliding, with or without the canine companion, is immensely superior to microlight flying, in which the airborne are propelled by a motor so clamorous and noisy that any idea of soaring serenely through the heavens is soon lost.",
+          "The biggest surprise was that they were not all strong, strapping young men, intent upon ticking off another item on some checklist of dangerous things to do before I die'. Of the six preparing to jump, three were women and the average age appeared to be somewhere in the mid-thirties.",
+          "The puppy was paragliding - a tiny, intrepid recruit to the sport that has taken off big time across the country. The creature was not on its own, thank goodness, but on a machine piloted by a young man who greeted me cheerily as they swooped beyond the end of the terrace and dived down the hillside.",
+          "There was one nasty moment when one of the women leapt and, instead of instantly catching the air beneath her canopy, plunged alarmingly down the face of the cliff; but within seconds she had caught an updraft, was whooping gleefully and on her way."
+        ],
+        "correct_order": "FDBAEG"
+      }
+    ]
+  },
+  {
+    "type": "choose_writer",
+    "heading": [
+      "KEVIN: Hallo Bay, Alaska",
+      "SARAHL Madikwe Game Reserve, South Africe",
+      "RAY: Playa Grande Sanctuary, Costa Rica",
+      "AMY: Chitwan National Park Nepal",
+      "Wildlife encounters\nFour readers suggest great locations where you can watch wildlife in its natural surroundings"
+    ],
+    "text": [
+      "The first time you see a bear, when you realise that s just you, the guide and that bear, your mouth definitely goes dry. Unlike in other more frequently visited areas, the bears at Hallo Bay don't associate humans with food as nobody's ever fed them, so they pose no risk to people. You can watch the bears fish in the river, nurse their cubs, photograph them hunting for clams on the beach or find them sleeping with their full bellies nestled in a hollow they've dug in the sand. For me, Hallo Bay's a magical place. I've always been a person who was structured and organised, but I've said for years now that I lost my list in Alaska. One thing which makes Hallo Bay so special is that the remote camp has just a dozen guests at a time, with guided groups of no more than half that many heading out to search for the bears. And there's no shortage of them; Hallo Bay has one of the world's healthiest populations of coastal browns, maybe because of the plentiful food supply. It must be how the planet was several hundred years ago. Admittedly, Hallo Bay would be a bit challenging if you'd never been wildlife watching before. But for me, even without the bears it would be a gorgeous place to visit.",
+      "It's so hard to recommend just one location in Africa to go in search of the big five! However, if you've never been on safari before, then travel is straightforward in South Africa and its parks are the cheapest if you're short of money. Also, if you want to take children with you there are parks, such as Madikwe Game Reserve, that are malaria-free. This doesn't mean you can't have an adventure. The parks have well-equipped campsites and good- quality roads, so it's perfectly possible to fly in, hire a four-by-four, fully equipped with everything you need for a fortnight's camping, and head off on your own. There's also an impressive selection of volunteer projects involving animals, particularly around the country's biggest parks. I spent four weeks helping at a veterinary practice with African Conservation Experience. I got the chance to work with lion, cheetah, sable antelope, elephant and buffalo. The work's extremely hands-on and you have to be ready for anything, whether it's taking a lion's temperature or treating a dog for a snake bite!",
+      "With concerns mounting about the pressure on the Galápagos Islands, Costa Rica's popularity as a wildlife venue could be about to take off, and deservedly so. It boasts the world's highest biodiversity according to some guidebooks and packs in 850 species of birds and a quarter of the world's species of butterfly. From cloud forest to Caribbean beaches and from dry tropical forest to mangrove swamps, Costa Rica has it all: iguanas at your feet, capuchin monkeys overhead, sloths are to be seen, and if you're really lucky you'll catch sight of one of Costa Rica's jaguars. However, perhaps the most magical thing to do here is watch turtles lay their eggs on a moonlight drenched beach. It does require patience; we waited two nights, napping on hard benches at the Playa Grande sanctuary, before one of the wardens shook us awake to say a female had been spotted laboriously making her way out of the surf. The turtles go into a sort of trance and we were allowed quite close to watch her dig a hole with her flippers and deposit hundreds of eggs, the size of golf balls. She then casually covered them up and headed off back down the beach - the last she'll see of her young. The eggs are then gathered by the wardens and taken to their hatchery to protect them from predators.",
+      "With tigers, snow leopards and one-horned rhinoceros, Nepal certainly has its share of endangered animals. The snow leopard is perhaps the most exotic of them all but, with only a maximum of five hundred of these cats left in the country, they're incredibly difficult to spot. Snow leopard treks are organised regularly, but if you go on one you need to enjoy it for the sheer magnificence of the scenery and not feel let down if you don't spot your ultimate prey. It could be a life-changing experience, but it's not that likely to happen. I visited Chitwan at the foot of the Himalayas. The park was set aside for wildlife in 1959 and is the place to see Indian rhinoceros as well as being one of the last refuges of the Bengal tiger. One of the best ways to view both is from the back of an elephant - something that is rather fabulous in itself. We were having breakfast one day when two elephants were being taken for their daily wash on the river bank near our hotel. We made a small donation and asked to help - it was one of the most amazing animal encounters possible, sitting on the backs of those huge elephants scrubbing their backs whilst they knelt in the water and sprayed us from their trunk! All the more special as it was so impromptu."
+    ],
+    "questions": [
+      {
+        "options": [
+          "offered money in return for the chance to interact directly with some animals",
+          "feels that visiting the location has been a life-changing experience",
+          "says the location may well become more renowned in the future",
+          "has a suggestion for the novice wildlife tourist",
+          "mentions a physical reaction to the excitement of spotting certain animals",
+          "got involved in activities designed to help various types of animal directly",
+          "feels it unwise to bank on seeing one particular species",
+          "mentions an abundance of animals belonging to one particular species",
+          "mentions unpaid work being offered as part of a trip",
+          "suffered some discomfort in order to witness one wildlife event",
+          "mentions one particularly enjoyable form of transport",
+          "points out the relative safety of an isolated location",
+          "mentions a possible health advantage for visitors choosing one location",
+          "got particular pleasure from an activity that was unplanned",
+          "feels that independent travel is a realistic option in the area"
+        ],
+        "correct_order": "DACBABDABCDABDB"
+      }
+    ]
+  }
 ]
