@@ -140,5 +140,84 @@
         "correct_order": "DACBABDABCDABDB"
       }
     ]
+  },
+  {
+    "type": "multiple choice",
+    "heading": ["The voice of Bart Simpson"],
+    "text": [
+      "The woman I've come to meet is sitting atop a large plastic cow in the grounds of her Los Angeles home. Small and blonde, she holds an umbrella aloft and gives a mischievous smile for an American magazine photographer. 'Hi, there!' she says, giving me a warm, almost motherly wave from her unusual vantage point. Her real name is Nancy Cartwright. Her stage name, however, is a little more familiar: Bart Simpson, the obnoxious, skateboard-touting ten-year-old from the cartoon metropolis of Springfield. It's hard to believe, but this forty-six-year-old mother of two, dressed in a sensible green top and blue trousers, is the yellow-hued rascal who instructed the world to eat his shorts.\n 'I can bring him out at will,' says Cartwright, with a hint of a raised eyebrow, her naturally husky voice always seemingly on the verge of breaking into a Bartism, punctuated by his cruel, gloating laughter. 'Think about it, it's kind of ideal, isn't it? If I go to a party and someone brings a kid up to me I can go, 'Hey, man, what's happening?' and watch the kid's face. I love doing that.' My own gawping response is probably similar. The ten-year-old voice coming out of Cartwright is scarily incongruous. It belongs to another world-certainly not here in the lush Californian suburb of Northridge, with its white picket fences, tennis courts, swimming pools and three-car garages. Reckless skateboarding would certainly not be tolerated.\nCartwright, however, has grown tired of deploying Bart's voice as a means to claim traditional celebrity perks, such as a table at the famous Sky Bar. 'I tried it once,' she says. 'It's embarrassing. People are like, 'So what?' She has had similarly disappointing encounters with unamused traffic cops and harried flight attendants. Now Cartwright has learnt to relish her anonymous celebrity status. 'It's probably because I have the choice to be able to do it whereas most celebrities don't,' she concludes. 'They're kind of, you know, at the whim of the public, and that must be unnerving.\nBut there is, of course, something profoundly odd about the fact that Nancy Cartwright is at once both an A-list celebrity and a faceless nobody. So odd, in fact, that it has inspired Cartwright to produce a one- woman show based on what she calls 'My life as a ten-year-old boy', which she is bringing to the Edinburgh Festival. The one-woman show takes the audience through Cartwright's real life as a ten-year-old - living in the Midwestern 'nowheresville' of Dayton, Ohio - when she won a school competition with a performance of Rudyard Kipling's 'How the Camel Got His Hump'. After that came other competitions, other trophies, and a gradual realisation that her voice was perfect for cartoons. By her late teens, Cartwright was working for a radio station where she met a Hollywood studio representative who gave her the name and phone number of Daws Butler, the legendary voice of cartoon favourites Huckleberry Hound and Yogi Bear.\nAt just 19, and with only that one contact, Cartwright, like so many other wannabe starlets, packed her bags and headed west, transferring her university scholarship from Ohio to the University of California. Cartwright, however, was no ordinary blonde starlet. 'Most people who come to Hollywood are looking to get on camera,' she says. 'My story is quite different. My purpose was to hook up with this pioneer of the voiceover industry, so that's what I did. He put her in touch with the directors at the Hanna-Barbera studio and helped her get the voice of Gloria in Richie Rich - the adventures of the richest boy in the world.\nThen came the call from the producers of a 30-second cartoon spot on 'The Tracey Ullman Show'. They wanted her to play the role of Lisa Simpson, à nerdy and morally upstanding know-all with a bratty little brother, Bart. I went in, saw Lisa, and didn't really see anything I could sink my teeth into,' says Cartwright. 'But the audition piece for Bart was right there, and I'm like, 'Whoa, ten years old, underachiever and proud of it!', and I'm going, 'Yeah, man- that's the one I wanna do!' She knew the audition was a success when Matt Greening, the creator of The Simpsons, started cracking up and shouting, 'That's it! That's Bart!' It's no surprise to learn that Bart's catchphrase 'Eat my shorts!' - was originally an ad lib by Cartwright. The Bart voice had long been a part of Cartwright's repertoire, but it didn't come alive until she saw the pictures of him and read the script. The material, meanwhile, which was pretty heady stuff in the late eighties, didn't shock her. 'You know what,' she says, 'I couldn't believe I was actually getting paid for doing things I would get into trouble for doing as a kid.'"
+    ],
+    "questions": [
+      {
+        "question": "In the first paragraph, the writer reveals that on meeting Nancy, he was",
+        "options": {
+          "A": "unprepared for her age.",
+          "B": "struck by her ordinariness.",
+          "C": "reassured by her appearance.",
+          "D": "embarrassed by her behaviour."
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "The word 'gawping' in line 11 describes",
+        "options": {
+          "A": "a typical reply.",
+          "B": "a sort of laugh.",
+          "C": "a facial expression.",
+          "D": "an involuntary movement."
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "How do adults tend to react when Nancy uses Bart's voice in public?",
+        "options": {
+          "A": "They are confused by it.",
+          "B": "They are unimpressed by it.",
+          "C": "They give her special treatment.",
+          "D": "They accept that she is a celebrity."
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "How does Nancy feel about keeping a relatively low profile?",
+        "options": {
+          "A": "nervous about the effects on her future career",
+          "B": "unsure that it was a good choice to make",
+          "C": "relieved not to be more in the public eye",
+          "D": "sorry not to be recognised more often"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What do we learn about Nancy's one-woman show?",
+        "options": {
+          "A": "It features the wide range of voices she can produce.",
+          "B": "It explores the strangeness of voiceover work.",
+          "C": "It celebrates other famous cartoon characters.",
+          "D": "It traces the development of her early career."
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Why did Nancy originally decide to go to Hollywood?",
+        "options": {
+          "A": "She had got a place on a course there.",
+          "B": "She already had the offer of a job there.",
+          "C": "Her ambition was to become a film star there.",
+          "D": "There was somebody who could help her there."
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "Nancy got the part of Bart Simpson as a result of",
+        "options": {
+          "A": "volunteering to do an audition for it.",
+          "B": "being rejected for the part of his sister.",
+          "C": "contributing to part of the script of the show.",
+          "D": "successfully playing a male character in another show."
+        },
+        "correct_answer": "A"
+      }
+    ]
   }
 ]
