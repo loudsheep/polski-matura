@@ -29,7 +29,7 @@ export default function EpokiWSkrociePage() {
             </div>
 
             {jsonData && jsonData.map((value: any, idx: any) => (
-                <div key={idx} className='mb-10 pb-5 border-b'>
+                <div key={idx} className='mb-10 pb-5 border-b text-justify'>
                     <h2 className='text-xl font-bold'>{value.epoka}</h2>
                     <p>{value.opis}</p>
                 </div>
