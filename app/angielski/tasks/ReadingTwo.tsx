@@ -37,7 +37,7 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
         </div>
       )
       }
-      <div className='flex'>
+      <div className='flex flex-col lg:flex-row'>
         <div>
           <div className="m-8">
             {
