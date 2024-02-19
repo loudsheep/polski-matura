@@ -42,10 +42,8 @@ export default function Tasks_Page() {
             const prev = checkedItems;
             switch (value) {
                 case "taskOne":
-                    if (!v?.includes("X")) {
-                        prev[`Content ${idx}`] = true;
-                        setCheckedItems(prev);
-                        console.log(checkedItems)
+                    if (v?.split(";").length == element?.questions.length && v != "") {
+                        handleCheckboxChange(idx)
                     }
             }
             idx++;
@@ -86,7 +84,9 @@ export default function Tasks_Page() {
         setMultipleChoiceTab(multipleChoiceArray);
         setChooseWriterTab(chooseWriterArray);
         setInsertParagraphTab(insertParagraphArray);
-        localStorage.setItem("taskOne", "");
+        localStorage.removeItem("taskOne")
+        localStorage.removeItem("taskTwo")
+        localStorage.removeItem("taskTri")
     };
 
     useEffect(() => {
@@ -96,7 +96,6 @@ export default function Tasks_Page() {
     useEffect(() => {
         setInterval(() => {
             CheckValues(["taskOne"]);
-            console.log("here");
         }, 3000)
     }, [])
 

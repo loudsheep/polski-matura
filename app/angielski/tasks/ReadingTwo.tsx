@@ -22,6 +22,7 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
   }, [taskList]);
 
   const ChangeAnswer = (index: number, answer: string) => {
+    console.log(answer);
     const newAns = [...taskList];
     newAns[index] = answer;
     setTaskList(newAns);
@@ -40,13 +41,13 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
         <div>
           <div className="m-8">
             {
-              text && text.map((value: any, index: any) =>
+              text && text.map((value: any, index: number) =>
                 <div key={value}>
                   <p className="text-base text-gray-700 leading-relaxed mb-4">{value}</p>
                   {index != text.length - 1 && (
-                    <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-                      {answers && answers.map((value: string) =>
-                        <option value={value}>{value}</option>
+                    <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" defaultValue={index} onChange={(e) => ChangeAnswer(index, e.target.value)}>
+                      {answers && answers.map((value: string, index2 : number) =>
+                        <option key={`${value} ${index2}`} value={value}>{value}</option>
                       )}
                     </select>
                   )}
