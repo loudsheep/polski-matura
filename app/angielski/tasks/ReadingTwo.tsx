@@ -33,13 +33,13 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
     <div>
       {heading && heading.map((v2: any, idx: any) =>
         <div key={v2} className="my-container whitespace-pre-line">
-          <h1 className="text-3xl font-bold mb-4">{heading[idx]}</h1>
+          <h2 className="text-3xl font-semibold mb-4">{heading[idx]}</h2>
         </div>
       )
       }
-      <div className='flex flex-col lg:flex-row'>
+      <div className='flex flex-col lg:flex-row gap-8'>
         <div>
-          <div className="m-8">
+          <div className="">
             {
               text && text.map((value: any, index: number) =>
                 <div key={value}>
