@@ -37,12 +37,12 @@ export default function ReadingTri({ heading, text, type, questions }: readingFi
 
     return (
         <div>
-            <h1 className="text-3xl font-bold mb-4 whitespace-pre-line">{heading[heading.length - 1]}</h1>
-            <div className="m-8">
+            <h2 className="text-3xl font-semibold mb-4 whitespace-pre-line">{heading[heading.length - 1]}</h2>
+            <div className="">
                 {heading && heading.map((v2: any, idx: any) =>
                     <div key={v2}>{idx != heading.length - 1 && (
                         <div>
-                            <h1 className="text-3xl font-bold mb-4">{v2}</h1>
+                            <h2 className="text-2xl font-semibold mb-4">{v2}</h2>
                             <p className="text-base text-gray-700 leading-relaxed mb-4">{text[idx]}</p>
                         </div>
                     )}</div>

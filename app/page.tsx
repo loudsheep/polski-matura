@@ -16,9 +16,9 @@ export default function Home() {
                     <li>
                         <Link href={"/angielski"} className="text-blue-500">Angielski</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href={"/matematyka"} className="text-blue-500">Matematyka</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>

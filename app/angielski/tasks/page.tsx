@@ -154,19 +154,19 @@ export default function Tasks_Page() {
             </div> */}
             {element && selectedTask == 1 && (
                 <div>
-                    <h1 className="text-3xl font-bold mb-4"> Task {String(selectedTask)}</h1>
+                    <h1 className="text-4xl font-bold mb-4"> Task {String(selectedTask)}</h1>
                     <ReadingOne type={element.type} heading={element.heading} text={element.text} questions={element.questions}></ReadingOne>
                 </div>
             )}
             {element && selectedTask == 2 && (
                 <div>
-                    <h1 className="text-3xl font-bold mb-4"> Task {String(selectedTask)}</h1>
+                    <h1 className="text-4xl font-bold mb-4"> Task {String(selectedTask)}</h1>
                     <ReadingTwo type={elementTwo.type} heading={elementTwo.heading} text={elementTwo.text} questions={elementTwo.questions}></ReadingTwo>
                 </div>
             )}
             {element && selectedTask == 3 && (
                 <div>
-                    <h1 className="text-3xl font-bold mb-4"> Task {String(selectedTask)}</h1>
+                    <h1 className="text-4xl font-bold mb-4"> Task {String(selectedTask)}</h1>
                     <ReadingTri type={elementTri.type} heading={elementTri.heading} text={elementTri.text} questions={elementTri.questions}></ReadingTri>
                 </div>
             )}
