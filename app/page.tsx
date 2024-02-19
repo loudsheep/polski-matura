@@ -1,3 +1,4 @@
+import TimeLeft from '@/components/TimeLeft'
 import Link from 'next/link'
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
                     </li> */}
                 </ul>
             </div>
+
+            <TimeLeft></TimeLeft>
         </div>
     )
 }
