@@ -12,7 +12,7 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
     const saving_format = item.join(";");
     localStorage.setItem("taskTwo", saving_format);
   }
-  const initialTaskList = localStorage.getItem("taskTwo")?.split(';') || [Array(questions.length).fill("X")];
+  const initialTaskList = localStorage.getItem("taskTwo")?.split(';') || Array(questions[0].options.length).fill("X");
   const [taskList, setTaskList] = useState<any[]>(initialTaskList);
   const answers = ["A", "B", "C", "D", "E", "F", "G"];
 
@@ -22,10 +22,16 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
   }, [taskList]);
 
   const ChangeAnswer = (index: number, answer: string) => {
-    console.log(answer);
-    const newAns = [...taskList];
-    newAns[index] = answer;
-    setTaskList(newAns);
+    let copy = taskList;
+    let c = []
+    for (let i = 0; i < copy.length; i++) {
+      if (i != index) {
+        c.push(copy[i])
+      } else {
+        c.push(answer);
+      }
+    }
+    setTaskList(c)
   }
 
 
@@ -45,9 +51,9 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
                 <div key={value}>
                   <p className="text-base text-gray-700 leading-relaxed mb-4">{value}</p>
                   {index != text.length - 1 && (
-                    <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" defaultValue={index} onChange={(e) => ChangeAnswer(index, e.target.value)}>
-                      {answers && answers.map((value: string, index2 : number) =>
-                        <option key={`${value} ${index2}`} value={value}>{value}</option>
+                    <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline" value={taskList[index]} onChange={(e) => ChangeAnswer(index, e.target.value)}>
+                      {answers && answers.map((value2: string, index2: number) =>
+                        <option key={`${value2} ${index2}`} value={value2}>{value2}</option>
                       )}
                     </select>
                   )}

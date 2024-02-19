@@ -12,7 +12,7 @@ export default function ReadingOne({heading, text, type, questions}: readingFile
         const saving_format = item.join(";");
         localStorage.setItem("taskOne", saving_format);
     }
-    const initialTaskList = localStorage.getItem("taskOne")?.split(';') || [Array(questions.length).fill("X")];
+    const initialTaskList = localStorage.getItem("taskOne")?.split(';') || Array(questions.length).fill("X");
     const [taskList, setTaskList] = useState<any[]>(initialTaskList);
 
 
@@ -24,6 +24,7 @@ export default function ReadingOne({heading, text, type, questions}: readingFile
         const newAns = [...taskList];
         newAns[index] = answer;
         setTaskList(newAns);
+        console.log(newAns);
     }
 
 
