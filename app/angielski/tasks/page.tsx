@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import ReadingOne from "./ReadingOne";
 import ReadingTwo from "./ReadingTwo";
 import ReadingTri from "./ReadingTri";
+import Popup from "./popup";
 
 type readingFile = {
     headings: string[],
@@ -10,6 +11,7 @@ type readingFile = {
     text: string[],
     questions: any[]
 }
+
 
 export default function Tasks_Page() {
     const [jsonData, setJsonData] = useState<any[]>([]);
@@ -24,13 +26,17 @@ export default function Tasks_Page() {
     const [checkedItems, setCheckedItems] = useState<{ [key: string]: boolean }>({
         'Content 1': false,
         'Content 2': false,
-        'Content 3': false,
-        'Content 4': false,
-        'Content 5': false,
-        'Content 6': false,
-        'Content 7': false,
-        'Content 8': false,
+        'Content 3': false
     });
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleOpenPopup = () => {
+        setIsOpen(true);
+    };
+
+    const handleClosePopup = () => {
+        setIsOpen(false);
+    };
 
     const handleCheckboxChange = (index: Number) => {
         setSelectedTask(index)
@@ -122,36 +128,9 @@ export default function Tasks_Page() {
 
                     </button>
                 ))}
+                <button className={`mt-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`} onClick={handleOpenPopup}>Zakończ</button>
+                <Popup isOpen={isOpen} onClose={handleClosePopup} />
             </div>
-            {/* <div className="p-8">
-                <div className="flex space-x-4 mb-4">
-                    {Object.keys(checkedItems).map((content) => (
-                        <button
-                            key={content}
-                            className={`py-2 px-4 rounded-md ${checkedItems[content] ? 'bg-green-500 text-white' : 'bg-gray-300'
-                                }`}
-                            onClick={() => handleCheckboxChange(content)}
-                        >
-                            {content}
-                        </button>
-                    ))}
-                </div> */}
-
-            {/* Content area
-                <div className="border p-4">
-                    {Object.keys(checkedItems).map((content) => (
-                        <div key={content} className="mb-2">
-                            <input
-                                type="checkbox"
-                                checked={checkedItems[content]}
-                                onChange={() => handleCheckboxChange(content)}
-                                className="mr-2"
-                            />
-                            <span>{content}</span>
-                        </div>
-                    ))}
-                </div>
-            </div> */}
             {element && selectedTask == 1 && (
                 <div>
                     <h1 className="text-4xl font-bold mb-4"> Task {String(selectedTask)}</h1>
