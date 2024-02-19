@@ -39,10 +39,10 @@ export default function ReadingOne({heading, text, type, questions}: readingFile
                 {questions && questions.map((v3: any, idx3: any) =>
                     <div key={idx3} className="m-8">
                         <h4 className="text-xl font-semibold text-blue-500 mb-4">{idx3 + 1}. {v3.question}</h4>
-                        <span className="mr-1"><b>A</b></span><input type="radio" value={"A"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)}/><span className="ml-2">{v3.options.A}</span><br></br>
-                        <span className="mr-1"><b>B</b></span><input type="radio" value={"B"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)}/><span className="ml-2">{v3.options.B}</span><br></br>
-                        <span className="mr-1"><b>C</b></span><input type="radio" value={"C"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)}/><span className="ml-2">{v3.options.C}</span><br></br>
-                        <span className="mr-1"><b>D</b></span><input type="radio" value={"D"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)}/><span className="ml-2">{v3.options.D}</span><br></br>
+                        <span className="mr-1"><b>A</b></span><input type="radio" value={"A"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)} checked={taskList[idx3] == "A"}/><span className="ml-2">{v3.options.A}</span><br></br>
+                        <span className="mr-1"><b>B</b></span><input type="radio" value={"B"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)} checked={taskList[idx3] == "B"}/><span className="ml-2">{v3.options.B}</span><br></br>
+                        <span className="mr-1"><b>C</b></span><input type="radio" value={"C"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)} checked={taskList[idx3] == "C"}/><span className="ml-2">{v3.options.C}</span><br></br>
+                        <span className="mr-1"><b>D</b></span><input type="radio" value={"D"} name={idx3} onChange={(e) => ChangeAnswer(idx3, e.target.value)} checked={taskList[idx3] == "D"}/><span className="ml-2">{v3.options.D}</span><br></br>
                     </div>
                 )}
             </div>

@@ -86,6 +86,7 @@ export default function Tasks_Page() {
         setMultipleChoiceTab(multipleChoiceArray);
         setChooseWriterTab(chooseWriterArray);
         setInsertParagraphTab(insertParagraphArray);
+        localStorage.setItem("taskOne", "");
     };
 
     useEffect(() => {

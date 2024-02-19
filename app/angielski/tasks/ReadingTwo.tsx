@@ -31,17 +31,17 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
   return (
     <div>
       {heading && heading.map((v2: any, idx: any) =>
-        <div key={idx} className="my-container whitespace-pre-line">
+        <div key={v2} className="my-container whitespace-pre-line">
           <h1 className="text-3xl font-bold mb-4">{heading[idx]}</h1>
         </div>
       )
       }
       <div className='flex'>
-        <div className=''>
+        <div>
           <div className="m-8">
             {
               text && text.map((value: any, index: any) =>
-                <div>
+                <div key={value}>
                   <p className="text-base text-gray-700 leading-relaxed mb-4">{value}</p>
                   {index != text.length - 1 && (
                     <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
@@ -57,7 +57,7 @@ export default function ReadingTwo({ heading, text, type, questions }: readingFi
         </div>
         <div className='border border-black p-5'>
           {questions[0].options && questions[0].options.map((value: string, id: number) =>
-            <p className="text-base text-gray-700 leading-relaxed mb-4"> {answers[id]}. {value}</p>
+            <p className="text-base text-gray-700 leading-relaxed mb-4" key={value}> {answers[id]}. {value}</p>
           )}
         </div>
       </div>
