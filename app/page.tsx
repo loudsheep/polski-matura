@@ -1,3 +1,4 @@
+import ShiftingCountdown from '@/components/ShiftingCountdown';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -27,7 +28,10 @@ export default function Home() {
                 </ul>
             </div>
 
-            <TimeLeft></TimeLeft>
+            <h2 className='mt-10 font-bold text-xl border-b mb-5'>Zostało do matury</h2>
+            <div className='mb-20'>
+                <TimeLeft></TimeLeft>
+            </div>
         </div>
     )
 }
