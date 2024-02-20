@@ -31,6 +31,9 @@ export default function Tasks_Page() {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleOpenPopup = () => {
+        let one_answers = localStorage.getItem("taskOne")?.split(";");
+        console.log(one_answers);
+        localStorage.setItem("exam_result", String(Math.random() * 100));
         setIsOpen(true);
     };
 

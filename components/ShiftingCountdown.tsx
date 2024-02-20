@@ -63,6 +63,9 @@ const ShiftingCountdown = (props: ShiftingCountdownProps) => {
                 <CountdownItem num={remaining.minutes} text="minut" />
                 <CountdownItem num={remaining.seconds} text="sekund" />
             </div>
+            <p className="w-full 3xl:w-3/4 max-w-5xl mx-auto flex items-center text-gray-400 text-xs">
+                {new Date(props.countdownDateTo).toLocaleDateString() + " " + new Date(props.countdownDateTo).toLocaleTimeString()}
+            </p>
         </div>
     );
 };

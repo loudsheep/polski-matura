@@ -1,6 +1,6 @@
 // Popup.tsx
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface PopupProps {
   isOpen: boolean;
@@ -8,7 +8,14 @@ interface PopupProps {
 }
 
 const Popup: React.FC<PopupProps> = ({ isOpen, onClose }) => {
-  const gifs = ["win.gif", "loss.gif", "mid.gif"]
+  const gifs = ["win.gif", "loss.gif", "mid.gif", "win.gif", "loss.gif", "mid.gif", "win.gif", "loss.gif", "mid.gif", "win.gif"]
+  const [id, setId] = useState<any>(0);
+  const [wynik, setWynik] = useState<any>(0);
+  useEffect(() => {
+    const val = Number(localStorage.getItem("exam_result"));
+    setWynik(Math.round(val));
+    setId(Math.floor(val / 10));
+  }) 
   if (!isOpen) return null;
 
   return (
@@ -37,8 +44,8 @@ const Popup: React.FC<PopupProps> = ({ isOpen, onClose }) => {
           </button>
         </div>
         <div className="mt-4">
-          <h2 className="text-lg font-semibold mb-4">Congrats you got  30%</h2>
-          <img src={`/image/${gifs[1]}`} alt="" />
+          <h2 className="text-lg font-semibold mb-4">Congrats you got  {wynik}%</h2>
+          <img src={`/image/${gifs[id]}`} alt="" />
         </div>
       </div>
     </div>
