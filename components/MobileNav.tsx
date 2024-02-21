@@ -3,12 +3,10 @@ import React, { useRef } from 'react'
 
 export default function MobileNav() {
 
-    const mobile_nav = useRef(null)
+    const mobile_nav = useRef<HTMLElement>(null)
     
     function changeMenu() {
-        if(mobile_nav !== null) {
-            mobile_nav.current.classList.toggle("hidden");
-        }
+        mobile_nav.current!.classList.toggle("hidden");
     }
 
     return (
