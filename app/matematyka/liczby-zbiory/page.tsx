@@ -1,11 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
-const ZbioryMathComponent= dynamic(() => import("./ZbioryMathComponent"), {
-    ssr: false,
-});
-
-const PotegiMathComponent= dynamic(() => import("./PotegiMathComponent"), {
+const PotegiMathComponent = dynamic(() => import("./PotegiMathComponent"), {
     ssr: false,
 })
 

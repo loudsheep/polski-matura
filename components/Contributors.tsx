@@ -39,7 +39,7 @@ export default function Contributors(props: ContributorsProps) {
 
             <div className='w-full'>
                 {contributors.map((contrib, idx) => (
-                    <a href={contrib.html_url} target="_blank">
+                    <a href={contrib.html_url} target="_blank" key={idx}>
                         <div className="rounded overflow-hidden shadow-lg w-full flex justify-between p-4 items-center mb-3">
                             <div className="flex items-center  justify-between">
                                 <img
