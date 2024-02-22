@@ -31,8 +31,18 @@ export default function Tasks_Page() {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleOpenPopup = () => {
-        let one_answers = localStorage.getItem("taskOne")?.split(";");
-        console.log(one_answers);
+        let total = 0;
+        let total_correct = 0;
+        let one_answers :any = localStorage.getItem("taskOne")?.split(';');
+        for (let i = 0; i<  element.questions.length; i++) {
+            if (element.questions[i].correct_answer == one_answers[i]) {
+                total_correct += 1
+            }
+            total += 1
+        }
+        let two_answers :any = localStorage.getItem("taskTwo")
+        
+        console.log(two_answers);
         localStorage.setItem("exam_result", String(Math.random() * 100));
         setIsOpen(true);
     };
