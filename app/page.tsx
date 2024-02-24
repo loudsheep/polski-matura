@@ -25,6 +25,9 @@ export default function Home() {
                     {/* <li>
                         <Link href={"/matematyka"} className="text-blue-500">Matematyka</Link>
                     </li> */}
+                    <li>
+                        <Link href={"/co-i-jak"} className="text-blue-500">Co i jak</Link>
+                    </li>
                 </ul>
             </div>
 
