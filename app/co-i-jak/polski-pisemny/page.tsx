@@ -6,7 +6,7 @@ const PolishExamPage = () => {
   const advancedExamDuration = 180; // Czas trwania egzaminu rozszerzonego w minutach
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center text-justify">
       <Head>
         <title>Matura z języka polskiego - wszystko co musisz wiedzieć</title>
         <meta name="description" content="Informacje o egzaminie maturalnym z języka polskiego" />

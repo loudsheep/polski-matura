@@ -5,7 +5,7 @@ const MathExamPage = () => {
   const passingScore = 0.3 * totalPoints; // Minimalna liczba punktów do zaliczenia (30% z maksymalnej liczby punktów)
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center text-justify">
       <Head>
         <title>Matura z matematyki - wszystko co musisz wiedzieć</title>
         <meta name="description" content="Informacje o egzaminie maturalnym z matematyki na poziomie podstawowym" />

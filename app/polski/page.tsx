@@ -19,6 +19,9 @@ export default function PolskiPage() {
                     <li>
                         <Link href={"/polski/srodki-stylistyczne"} className="text-blue-500">Środki stylistyczne</Link>
                     </li>
+                    <li>
+                        <Link href={"/polski/rozprawka"} className="text-blue-500">Jak pisać rozprawkę</Link>
+                    </li>
                 </ul>
             </div>
         </div>

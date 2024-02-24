@@ -7,7 +7,7 @@ const ComputerScienceExamPage = () => {
   const practicalMaxPoints = 35; // Maksymalna liczba punktów do zdobycia na części praktycznej
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center text-justify">
       <Head>
         <title>Matura z informatyki</title>
         <meta name="description" content="Informacje o egzaminie maturalnym z informatyki dla liceów i techników" />
