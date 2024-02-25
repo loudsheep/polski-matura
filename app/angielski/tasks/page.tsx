@@ -40,10 +40,38 @@ export default function Tasks_Page() {
             }
             total += 1
         }
-        let two_answers :any = localStorage.getItem("taskTwo")
+        if (one_answers.includes("X")) {
+            alert("please select all answers");
+            return
+        }
+        let two_answers :any = localStorage.getItem("taskTwo")?.split(';');
+        if (!two_answers) {
+            alert("please select all answers");
+            return
+        }
+        let sss = "";
+        for (let i = 0; i < elementTwo.questions[0].correct_order.length; i++) {
+            if (elementTwo.questions[0].correct_order[i] == two_answers[i]) {
+                total_correct += 1
+            }
+            total += 1
+            sss += two_answers[i]
+        }
+        let tri_answers :any = localStorage.getItem("taskTri")?.split(';');
+        if (!tri_answers) {
+            alert("please select all answers");
+            return
+        }
+        for (let i = 0; i < elementTri.questions[0].correct_order.length; i++) {
+            if (elementTri.questions[0].correct_order[i] == tri_answers[i]) {
+                total_correct += 1
+            }
+            total += 1
+            sss += tri_answers[i]
+        }
         
-        console.log(two_answers);
-        localStorage.setItem("exam_result", String(Math.random() * 100));
+        console.log(total, total_correct);
+        localStorage.setItem("exam_result", String(total_correct / total * 100));
         setIsOpen(true);
     };
 
