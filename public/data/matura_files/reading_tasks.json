@@ -143,7 +143,9 @@
   },
   {
     "type": "multiple choice",
-    "heading": ["The voice of Bart Simpson"],
+    "heading": [
+      "The voice of Bart Simpson"
+    ],
     "text": [
       "The woman I've come to meet is sitting atop a large plastic cow in the grounds of her Los Angeles home. Small and blonde, she holds an umbrella aloft and gives a mischievous smile for an American magazine photographer. 'Hi, there!' she says, giving me a warm, almost motherly wave from her unusual vantage point. Her real name is Nancy Cartwright. Her stage name, however, is a little more familiar: Bart Simpson, the obnoxious, skateboard-touting ten-year-old from the cartoon metropolis of Springfield. It's hard to believe, but this forty-six-year-old mother of two, dressed in a sensible green top and blue trousers, is the yellow-hued rascal who instructed the world to eat his shorts.\n 'I can bring him out at will,' says Cartwright, with a hint of a raised eyebrow, her naturally husky voice always seemingly on the verge of breaking into a Bartism, punctuated by his cruel, gloating laughter. 'Think about it, it's kind of ideal, isn't it? If I go to a party and someone brings a kid up to me I can go, 'Hey, man, what's happening?' and watch the kid's face. I love doing that.' My own gawping response is probably similar. The ten-year-old voice coming out of Cartwright is scarily incongruous. It belongs to another world-certainly not here in the lush Californian suburb of Northridge, with its white picket fences, tennis courts, swimming pools and three-car garages. Reckless skateboarding would certainly not be tolerated.\nCartwright, however, has grown tired of deploying Bart's voice as a means to claim traditional celebrity perks, such as a table at the famous Sky Bar. 'I tried it once,' she says. 'It's embarrassing. People are like, 'So what?' She has had similarly disappointing encounters with unamused traffic cops and harried flight attendants. Now Cartwright has learnt to relish her anonymous celebrity status. 'It's probably because I have the choice to be able to do it whereas most celebrities don't,' she concludes. 'They're kind of, you know, at the whim of the public, and that must be unnerving.\nBut there is, of course, something profoundly odd about the fact that Nancy Cartwright is at once both an A-list celebrity and a faceless nobody. So odd, in fact, that it has inspired Cartwright to produce a one- woman show based on what she calls 'My life as a ten-year-old boy', which she is bringing to the Edinburgh Festival. The one-woman show takes the audience through Cartwright's real life as a ten-year-old - living in the Midwestern 'nowheresville' of Dayton, Ohio - when she won a school competition with a performance of Rudyard Kipling's 'How the Camel Got His Hump'. After that came other competitions, other trophies, and a gradual realisation that her voice was perfect for cartoons. By her late teens, Cartwright was working for a radio station where she met a Hollywood studio representative who gave her the name and phone number of Daws Butler, the legendary voice of cartoon favourites Huckleberry Hound and Yogi Bear.\nAt just 19, and with only that one contact, Cartwright, like so many other wannabe starlets, packed her bags and headed west, transferring her university scholarship from Ohio to the University of California. Cartwright, however, was no ordinary blonde starlet. 'Most people who come to Hollywood are looking to get on camera,' she says. 'My story is quite different. My purpose was to hook up with this pioneer of the voiceover industry, so that's what I did. He put her in touch with the directors at the Hanna-Barbera studio and helped her get the voice of Gloria in Richie Rich - the adventures of the richest boy in the world.\nThen came the call from the producers of a 30-second cartoon spot on 'The Tracey Ullman Show'. They wanted her to play the role of Lisa Simpson, à nerdy and morally upstanding know-all with a bratty little brother, Bart. I went in, saw Lisa, and didn't really see anything I could sink my teeth into,' says Cartwright. 'But the audition piece for Bart was right there, and I'm like, 'Whoa, ten years old, underachiever and proud of it!', and I'm going, 'Yeah, man- that's the one I wanna do!' She knew the audition was a success when Matt Greening, the creator of The Simpsons, started cracking up and shouting, 'That's it! That's Bart!' It's no surprise to learn that Bart's catchphrase 'Eat my shorts!' - was originally an ad lib by Cartwright. The Bart voice had long been a part of Cartwright's repertoire, but it didn't come alive until she saw the pictures of him and read the script. The material, meanwhile, which was pretty heady stuff in the late eighties, didn't shock her. 'You know what,' she says, 'I couldn't believe I was actually getting paid for doing things I would get into trouble for doing as a kid.'"
     ],
@@ -217,6 +219,110 @@
           "D": "successfully playing a male character in another show."
         },
         "correct_answer": "A"
+      }
+    ]
+  },
+  {
+    "type": "multiple choice",
+    "heading": [
+      "It's a string thing",
+      "EXTRACT The environmentally friendly CD",
+      "Book review"
+    ],
+    "text": [
+      "You only have to think of the expression 'tugging at the heart strings' to be reminded of the way we connect emotionally with the sound of the violin. But for years, the strings have been marginalized in the world of pop - sidelined to the slushy world of ballads, lazily used to suggest drama or sophistication. To all intents and purposes, strings had become the sonic equivalent of the highlighter pen. But suddenly things have changed.\nArtists like Joanna Newsom and Sufjan Stevens made a breakthrough with a broader kind of orchestral pop a few years ago, playing sellout shows at classical venues, and the trend continues.\nSo what has brought on our fancy for strings? Pop's relentless, synthesized technical evolution has made more people start longing for a more organic sound. And in a way, the sound of violins is revolutionary; punk was once synonymous with electric guitars and shouting, but since that's now the norm, it's no longer shocking. It's far more innovative to use a classical instrument in a way it's never been played before.\nWill our love of strings endure? Well, given the average age of a pop musician is 25, and the average age of a concert violin is 150 years old, maybe it's not violins that are the craze within pop - but pop that is the craze in the constantly evolving story of the violin.",
+      "Eric Prydz's single 'Proper Education' was the first music CD to be totally carbon neutral, from the production process through to point of sale. The charity Global Cool calculated that a total of 58.4 tons of carbon dioxide needed to be offset for the 40,000 CDs to be carbon neutral. To arrive at this figure they worked out, with the help of the recording company, how much of the gas was produced by the cameras, staff, travel costs, editing time, shipping and sale of the CDs. In the end, over half of it was produced during distribution rather than production. The emissions created through the entire process were offset through the Te Apiti wind farm project in New Zealand. The sites' turbines generate enough emission-free electricity to power 45,000 homes.\nThe video itself echoed the CD's environmental credentials. Set on a London housing estate, it shows a gang breaking into a block of flats, but instead of committing crimes, they switch appliances off standby, change light bulbs for more energy-efficient alternatives and place water-saving bricks in toilet cisterns. Proper Education' samples Pink Floyd's 'Another Brick in the Wall' - the first time the band has ever sanctioned such a use of the work. Prydz said: 'Pink Floyd would always use their videos to get a message across and I really wanted to carry on that spirit.'",
+      "Fiction struggles to compete with the glamour and grungy excess of rock music. It may surpass it in its capacity to probe and provoke, but a novel tends not to be as immediately alluring as an album, and a live reading rarely sets the pulse racing the way a high-octane gig will. Novels about bands and about the music business have rarely proved successful. Jonathan Lethem's The Fortress of Solitude (2003) demonstrated his flair for writing about music and popular culture. Now, after the complex sprawl of that fine novel, You Don't Love Me Yet looks at a comparatively narrow stretch of the music business, zeroing in on an indie band from Los Angeles which finds itself teetering on the brink of success.\nThe band doesn't have a name, which in hip LA makes it seem cool and edgy, though it might reasonably be taken as a sign of limited imagination; its members are still at the stage where they juggle day jobs and the trials of their unstarry personal lives with the demands of crafting and performing songs. The territory defined here is unambiguously hip, and there is a great deal that seems contrived - some of it winsome, some of it irritating. Certainly, there are plenty of deeply embedded jokes about musicians and their foibles. But amid all this drollery, the reader may labour to summon up much sympathy for Lethem's cast of precious, nerdy poseurs."
+    ],
+    "questions": [
+      {
+        "question": "In the first paragraph, the writer is",
+        "options": {
+          "A": "explaining why the violin is generally unsuited to pop music.",
+          "B": "describing how violins have been used until recently in pop music.",
+          "C": "praising the use of the violin to give emotional power to pop music.",
+          "D": "defending the way violins were used in traditional types of pop music."
+        },
+        "correct_answer": "B"
+      },
+      {
+        "question": "According to the writer, the current interest in violins in pop music",
+        "options": {
+          "A": "is just a phase that will soon pass.",
+          "B": "is related to changes in classical music.",
+          "C": "is part of a search for something new in pop music.",
+          "D": "is a result of technological improvements to the instrument."
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "The word 'they' in line 3 refers to",
+        "options": {
+          "A": "a number of CDs.",
+          "B": "a recording company.",
+          "C": "the stages in a process.",
+          "D": "a charitable organisation."
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "In the second paragraph, we learn that the visual content of the CD",
+        "options": {
+          "A": "was devised by another band.",
+          "B": "matched the advice given in the song.",
+          "C": "was part of an official environmental campaign.",
+          "D": "was intended to reinforce the carbon neutral message."
+        },
+        "correct_answer": "D"
+      },
+      {
+        "question": "The reviewer feels that Lethem's first novel",
+        "options": {
+          "A": "did not enjoy the level of success that it deserved.",
+          "B": "was too narrowly focussed to interest the general reader.",
+          "C": "was better than most others dealing with this subject matter.",
+          "D": "made the music business seem more complicated than it really is."
+        },
+        "correct_answer": "C"
+      },
+      {
+        "question": "What criticism does the reviewer have of Lethem's latest novel?",
+        "options": {
+          "A": "It lacks a clear message.",
+          "B": "The characters are unappealing.",
+          "C": "The plot is rather unconvincing.",
+          "D": "It fails in its attempts at humour."
+        },
+        "correct_answer": "B"
+      }
+    ]
+  },
+  {
+    "type": "insert paragraphs",
+    "heading": [
+      "The long way home"
+    ],
+    "text": [
+      "On the last day, I walked down to the harbour. Having slept late, I had breakfast on my own and, as Charley was still sleeping, went for a wander. I wanted to get to the ocean; I needed to see the Pacific. I stumbled down the hill, through rows and rows of tenements, nodding, smiling and waving at the people I passed, eventually arriving at the waterfront. I turned round and lifted my camera to my eye and took a photograph.",
+      "I walked on. The path led to the beach. Although it was the last day of June, it was the first day the sun had shone in Magadan that year. Three weeks earlier, it had snowed. But that day, the air was warm and soft, the sky a cloudless blue. Women wore bikinis and small children were running naked across the sands. Families were eating picnics or cooking on barbecues. I walked past them all, along the entire length of the beach, until I came to the harbour.",
+      "All we knew then was that we wanted to get from London to Magadan. With the maps laid out in front of us, Charley and I drew a route, arbitrarily assigning mileage to each day, not knowing anything about the state of the roads. Time and again we were told by experienced bet travellers that our plans were wildly optimistic and that we didn't know what we were letting ourselves in for. I'd never ridden off-road and Charley had never properly camped. The chances of failure were high, they said.",
+      "I thought back to the day a month or so earlier when we had been in Mongolia. It was mid-afternoon and we were riding through a beautiful valley. I pulled over and got off my bike. Charley, ahead of me, stopped, too. He swung his bike around and rode back towards me. Before he even arrived, I could feel it coming off him: why are we stopping? We're not getting petrol, we're not stopping to eat: why are we stopping?",
+      "It was where we were going to stop at in the middle of an afternoon so that we could cool our sweaty feet in the water while catching fish that we'd cook that evening on an open fire under a star-speckled sky. I'd seen that spot half an hour earlier. There was no question at all that it was the one. A beautiful expanse of water and nobody for hundreds of miles. And we'd ridden straight past it.",
+      "Then we got back on our bikes and moved on. A few weeks later, we arrived at the first big river in Siberia. It was too wide, too fast and too deep to cross on a motorbike. There was a bridge, but it had collapsed.",
+      "I understood now that it didn't really matter that we hadn't stopped beside that cool, fast-flowing Mongolian river. The imperfections in our journey were what made it perfect. And maybe we wouldn't be in Magadan now if we'd not had that burning desire to keep going. After all, the river would always be there. Now that I knew what was out there, I could always return."
+    ],
+    "questions": [
+      {
+        "options": [
+          "Yet here we were in Magadan, as far around the globe from home as it was possible to go, and we'd arrived one day ahead of our schedule.",
+          "We then guessed our way from west to east, across two continents, from the Atlantic to the Pacific, as far as it was possible to ride a motorbike in a straightish line.",
+          "I walked away from Charley. I didn't want to tell him it was because we'd passed the place. The place that had been in my dreams. The place we'd fantasised about months before we'd even set off from London. A place with a river of cool, white water and a field nearby to pitch our tents.",
+          "There it was: Magadan, Siberia. The place that had been in my dreams and thoughts for two years, like a mythical city forever beyond my reach. I wanted to capture it, somehow hold on to it, take a part of it with me when Charley and I began the long journey back.",
+          "I thought Charley would be itching to get ahead, impatient with the hold-up. But he was in his element. He knew that someone or something would be along to help. The delays were the journey. We'd get across it when we got across it.",
+          "I sat down for five minutes, just needing to look at the countryside around us. The countryside that we often didn't have time to take in because we were always so intent on keeping to our schedule.",
+          "There, I climbed up on to the quay and sat on a mushroom-shaped bollard. An Alsatian came over and sat next to me. I scratched its head for a while, gazed out at the ocean and thought back to the day when Charley and I had sat in a little workshop in west London, surrounded by motorbikes, with dreams of the open road in our heads."
+        ],
+        "correct_order": "DGACFE"
       }
     ]
   }
