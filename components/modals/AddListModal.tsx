@@ -19,8 +19,6 @@ export default function AddListModal(props: AddListModalProps) {
     const [toRenderFields, setToRenderFields] = useState<any[]>([0]);
 
     const changeRange = (rangeIdx: number, type: "start" | "end", value: string) => {
-        console.log(rangeIdx, type, value);
-
         // range exists, modify it
         if (rangeIdx < ranges.length()) {
             setRanges(
@@ -31,8 +29,6 @@ export default function AddListModal(props: AddListModalProps) {
                 ranges.addRange(type == "start" ? value : null, type == "end" ? value : null),
             );
         }
-
-        console.log(ranges, ranges.renderFields());
         setToRenderFields(ranges.renderFields());
     };
 

@@ -29,7 +29,7 @@ export default function Home() {
                         <Link href={"/co-i-jak"} className="text-blue-500">Co i jak</Link>
                     </li>
                     <li>
-                        <Link href={"/generator"} className="text-blue-500">Losowanie zadań do przerobienia</Link>
+                        <Link href={"/losowanie"} className="text-blue-500">Losowanie zadań do przerobienia</Link>
                     </li>
                 </ul>
             </div>

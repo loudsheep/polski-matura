@@ -1,9 +1,15 @@
-import ListRange from "@/lib/ListRange";
+"use client";
+
 import useLocalStorage from "./useLocalstorage";
 import { TaskRange, TasksObject } from "@/types/Tasks";
 
 
-type UseRandomTaskReturnType = [() => { id: number, name: string, numTasks: number }[], (name: string, list: TaskRange[]) => void];
+type UseRandomTaskReturnType = [() => { id: number, name: string, numTasks: number, done: number }[],
+    (name: string, list: TaskRange[]) => void,
+    (id: number) => TasksObject | null,
+    (id: number) => { id: number, name: string, numTasks: number, done: number } | null,
+    (id: number, rangeIdx: number, taskIdx: number, newStatus: "done" | "to_revision" | "too_hard") => void,
+    (id: number) => boolean];
 
 function useRandomTask(key: string = "losowe_zadania"): UseRandomTaskReturnType {
     const [taskStorage, setTaskStorage] = useLocalStorage<TasksObject[]>(key, []);
@@ -11,7 +17,7 @@ function useRandomTask(key: string = "losowe_zadania"): UseRandomTaskReturnType 
     const addTaskList = (name: string, list: TaskRange[]) => {
         let tmp = JSON.parse(JSON.stringify(taskStorage));
         tmp.push({
-            id: Math.round(Math.random() * 100000),
+            id: Math.round(Math.random() * 1_000_000_000_000),
             name: name,
             ranges: list,
         });
@@ -19,84 +25,83 @@ function useRandomTask(key: string = "losowe_zadania"): UseRandomTaskReturnType 
     }
 
     const getListDataForTable = () => {
-        console.log("USE", taskStorage);
-
         let result = [];
         for (const task of taskStorage) {
-            let numTasks = 0
+            let numTasks = 0;
+            let done = 0
             for (const range of task.ranges) {
                 numTasks += range.tasks.length;
+                for (const elem of range.tasks) {
+                    if (elem.status == "done") done++;
+                }
             }
 
             result.push({
                 id: task.id,
                 name: task.name,
                 numTasks: numTasks,
+                done: done,
             });
         }
 
         return result;
     };
 
-    return [getListDataForTable, addTaskList];
+    const getList = (id: number) => {
+        for (const task of taskStorage) {
+            if (task.id == id) return task;
+        }
+        return null;
+    };
 
-    // const getNote = (lektura: number, opracowanie: number) => {
-    //     for (const elem of notesStorage) {
-    //         if (elem.lekturaIdx == lektura && elem.opracowanieIdx == opracowanie && elem.content != "") {
-    //             return elem;
-    //         }
-    //     }
-    //     return null;
-    // }
+    const getListDetails = (id: number) => {
+        let task = getList(id);
+        if (task == null) return null;
 
-    // const getNotes = (lektura: number, opracowanie: number): string => {
-    //     return getNote(lektura, opracowanie)?.content ?? "";
-    // };
+        let numTasks = 0;
+        let done = 0
+        for (const range of task.ranges) {
+            numTasks += range.tasks.length;
+            for (const elem of range.tasks) {
+                if (elem.status == "done") done++;
+            }
+        }
 
-    // const setNotes = (lektura: number, opracowanie: number, notes: string) => {
-    //     let note = getNote(lektura, opracowanie);
-    //     if (note) {
-    //         let tmp = JSON.parse(JSON.stringify(notesStorage));
+        return {
+            id: task.id,
+            name: task.name,
+            numTasks: numTasks,
+            done: done,
+        };
+    };
 
-    //         for (const elem of tmp) {
-    //             if (elem.lekturaIdx == lektura && elem.opracowanieIdx == opracowanie) {
-    //                 if (notes == "") {
-    //                     tmp.splice(tmp.indexOf(elem), 1);
-    //                 } else {
-    //                     elem.content = notes;
-    //                 }
-    //                 break
-    //             }
-    //         }
+    const editStatus = (id: number, rangeIdx: number, taskIdx: number, newStatus: "done" | "to_revision" | "too_hard") => {
+        let tmp = JSON.parse(JSON.stringify(taskStorage));
 
-    //         setNotesStorage(tmp);
-    //     } else {
-    //         setNotesStorage([...notesStorage, {
-    //             lekturaIdx: lektura,
-    //             opracowanieIdx: opracowanie,
-    //             content: notes,
-    //         }]);
-    //     }
-    // };
+        for (const object of tmp) {
+            if (object.id == id) {
+                object.ranges[rangeIdx].tasks[taskIdx].status = newStatus;
 
-    // const hasNotes = (lektura: number, opracowanie: number): boolean => {
-    //     return getNote(lektura, opracowanie) != null;
-    // };
+                setTaskStorage(tmp);
+                return;
+            }
+        }
+    };
 
-    // const lekturaHasNotes = (lektura: number, lektruaLength: number): number => {
-    //     let count = 0;
-    //     for (const elem of notesStorage) {
-    //         if (elem.lekturaIdx == lektura && elem.content != "") {
-    //             count++;
-    //         }
-    //     }
+    const deleteList = (id: number) => {
+        let tmp = JSON.parse(JSON.stringify(taskStorage));
+        for (let i = 0; i < tmp.length; i++) {
+            const element = tmp[i];
+            if (element.id == id) {
+                tmp.splice(i, 1);
+                setTaskStorage(tmp);
+                return true;
+            }
+        }
+        return false;
+    };
 
-    //     // 0 if no matches, 1 if some opracowania has notes, 2 if all opracowania in lektura has notes
-    //     if (count == 0) return 0;
-    //     return count == lektruaLength ? 2 : 1;
-    // }
-
-    // return [getNotes, setNotes, hasNotes, lekturaHasNotes];
+    return [getListDataForTable, addTaskList, getList, getListDetails, editStatus, deleteList];
 }
 
 export default useRandomTask;
