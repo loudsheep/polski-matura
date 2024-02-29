@@ -73,17 +73,17 @@ export default function AddListModal(props: AddListModalProps) {
                                 <div className="grid gap-6 mb-10 md:grid-cols-2" key={idx}>
                                     <div>
                                         <label htmlFor="range_start" className="block mb-2 text-sm font-medium text-gray-900 ">Początek zakresu zadań</label>
-                                        <input type="text" id="range_start" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="np. 1, A.1, D.13.1, ..." required onChange={(e) => changeRange(idx, "start", e.target.value)} />
+                                        <input type="text" id="range_start" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Pierwsze zadanie z zakresu" required onChange={(e) => changeRange(idx, "start", e.target.value)} />
                                     </div>
                                     <div>
                                         <label htmlFor="range_end" className="block mb-2 text-sm font-medium text-gray-900 ">Koniec zakresu zadań</label>
-                                        <input type="text" id="range_end" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="np. 23, A.33, D.13.41, ..." required onChange={(e) => changeRange(idx, "end", e.target.value)} />
+                                        <input type="text" id="range_end" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Ostatnie zadanie z zakresu" required onChange={(e) => changeRange(idx, "end", e.target.value)} />
                                     </div>
                                 </div>
                             ))}
 
                             <div className="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 text-justify" role="alert">
-                                <span className="font-medium">Uwaga!</span> Zakresy podaj odzielnie i ewentualne seperatory powinny być kropką, dopuszczalne znaki to cyfry, litery (duże i małe) oraz kropka.
+                                <span className="font-medium">Uwaga!</span> Zakresy podaj odzielnie i ewentualne seperatory powinny być kropką, dopuszczalne znaki to cyfry, litery (duże i małe) oraz kropka. Np. 1, A.1, D.13.1, ...
                             </div>
 
                             <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" onClick={saveList}>Dodaj</button>

@@ -1,5 +1,6 @@
 "use client";
 
+import RandomTaskCard from "@/components/RandomTaskCard";
 import useRandomTask from "@/hooks/useRandomTask";
 import { TasksObject } from "@/types/Tasks";
 import { notFound } from "next/navigation";
@@ -23,9 +24,11 @@ const colorForStatus = (status: undefined | "done" | "to_revision" | "too_hard")
 export default function ListaPage(props: ListaProps) {
     const [getTableData, addTask, getList, getDetails, editStatus] = useRandomTask("losowe_zadania");
     const [listDetails, setListDetails] = useState<TasksObject | null | "loading">("loading");
+    const [seed, setSeed] = useState<number>(0);
 
     const selectStatus = (rangeIdx: number, taskIdx: number, newStatus: "done" | "to_revision" | "too_hard") => {
         editStatus(props.params.listaId, rangeIdx, taskIdx, newStatus);
+        setSeed(Math.round(Math.random() * 1_000_000_000));
     };
 
     useEffect(() => {
@@ -51,6 +54,12 @@ export default function ListaPage(props: ListaProps) {
                 <h1 className="text-2xl"><strong>{getDetails(listDetails.id)?.numTasks}</strong> zadań</h1>
                 <h1 className="text-2xl text-green-600"><strong>{getDetails(listDetails.id)?.done}</strong> zrobionych</h1>
             </div>
+
+            {getDetails(listDetails.id)?.numTasks != getDetails(listDetails.id)?.done && (
+                <RandomTaskCard listId={listDetails.id} key={seed}></RandomTaskCard>
+            )}
+
+            {/* <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2">Pokaż losowe zadanie</button> */}
 
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                 <table className="w-full text-sm text-left rtl:text-right text-gray-500">

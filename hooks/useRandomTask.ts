@@ -9,7 +9,8 @@ type UseRandomTaskReturnType = [() => { id: number, name: string, numTasks: numb
     (id: number) => TasksObject | null,
     (id: number) => { id: number, name: string, numTasks: number, done: number } | null,
     (id: number, rangeIdx: number, taskIdx: number, newStatus: "done" | "to_revision" | "too_hard") => void,
-    (id: number) => boolean];
+    (id: number) => boolean,
+    (id: number) => { number: string, status?: "done" | "to_revision" | "too_hard" | undefined }[]];
 
 function useRandomTask(key: string = "losowe_zadania"): UseRandomTaskReturnType {
     const [taskStorage, setTaskStorage] = useLocalStorage<TasksObject[]>(key, []);
@@ -101,7 +102,21 @@ function useRandomTask(key: string = "losowe_zadania"): UseRandomTaskReturnType 
         return false;
     };
 
-    return [getListDataForTable, addTaskList, getList, getListDetails, editStatus, deleteList];
+    const getListNotDoneTasks = (id: number) => {
+        let list = getList(id);
+        if (!list) return [];
+
+        let result = [];
+        for (const range of list.ranges) {
+            for (const elem of range.tasks) {
+                if (elem.status != "done") result.push(elem);
+            }
+        }
+
+        return result;
+    };
+
+    return [getListDataForTable, addTaskList, getList, getListDetails, editStatus, deleteList, getListNotDoneTasks];
 }
 
 export default useRandomTask;
