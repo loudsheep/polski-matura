@@ -1,7 +1,7 @@
 'use client';
 
-import NoteModal from '@/components/NoteModal';
-import useNotes from '@/hooks/useNotes';
+import NoteModal from '@/components/modals/NoteModal';
+import useNotes from '@/hooks/useOpracowaniaNotes';
 import { notFound } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
 

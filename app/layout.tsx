@@ -11,11 +11,7 @@ export const metadata: Metadata = {
     description: 'Strona z powturką do matury',
 }
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
             <head>
@@ -58,11 +54,9 @@ export default function RootLayout({
                                 </li>
                             </ul>
                         </div>
-                        <MobileNav></MobileNav>
-                    </div>
-                </nav>
+                    </nav>
 
-                {children}
+                    {children}
             </body>
         </html>
     )

@@ -28,6 +28,9 @@ export default function Home() {
                     <li>
                         <Link href={"/co-i-jak"} className="text-blue-500">Co i jak</Link>
                     </li>
+                    <li>
+                        <Link href={"/losowanie"} className="text-blue-500">Losowanie zadań do przerobienia</Link>
+                    </li>
                 </ul>
             </div>
 
