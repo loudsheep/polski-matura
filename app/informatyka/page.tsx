@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function InformatykaPage() {
     return (
-        <div className="w-3/4 mx-auto flex flex-col items-center">
+        <div className="w-3/4 mx-auto flex flex-col items-center justify-center">
             <h1 className="text-2xl font-bold my-10">Strona główna do matury z informatyka</h1>
 
             <div className="mx-2">
