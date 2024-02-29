@@ -54,6 +54,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                                 </li>
                             </ul>
                         </div>
+                        <MobileNav></MobileNav>
+
                     </div>
                 </nav>
 
