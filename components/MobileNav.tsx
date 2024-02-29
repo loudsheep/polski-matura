@@ -20,6 +20,9 @@ export default function MobileNav() {
                         <a href="/informatyka" className="font-semibold text-lg">Informatyka</a>
                     </li>
                     <li>
+                        <a href="/matematyka" className="font-semibold text-lg">Matematyka</a>
+                    </li>
+                    <li>
                         <a href="/polski" className="font-semibold text-lg">Polski</a>
                     </li>
                     <li>
