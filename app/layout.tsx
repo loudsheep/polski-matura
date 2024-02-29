@@ -54,9 +54,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                                 </li>
                             </ul>
                         </div>
-                    </nav>
+                    </div>
+                </nav>
 
-                    {children}
+                {children}
             </body>
         </html>
     )
