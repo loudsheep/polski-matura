@@ -158,18 +158,18 @@ export default function Tasks_Page() {
 
     return (
         <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-3/5 mx-auto flex-col items-center mb-20 text-justify">
-            <div className="flex space-x-4 mb-4">
+            <div className="flex gap-4 my-4 items-center">
                 {Object.keys(checkedItems).map((content, index) => (
                     <button
                         key={content}
-                        className={`py-2 px-4 mt-5 rounded-md ${checkedItems[content] ? 'bg-green-500 text-white' : 'bg-gray-300'
+                        className={`py-3 px-4 rounded-md ${checkedItems[content] ? 'bg-green-500 text-white' : 'bg-gray-300'
                             }`}
                         onClick={() => handleCheckboxChange(index + 1)}
                     >
 
                     </button>
                 ))}
-                <button className={`mt-1 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`} onClick={handleOpenPopup}>Zakończ</button>
+                <button className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`} onClick={handleOpenPopup}>Zakończ</button>
                 <Popup isOpen={isOpen} onClose={handleClosePopup} />
             </div>
             {element && selectedTask == 1 && (

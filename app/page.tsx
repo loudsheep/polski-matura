@@ -22,11 +22,14 @@ export default function Home() {
                     <li>
                         <Link href={"/angielski"} className="text-blue-500">Angielski</Link>
                     </li>
-                    {/* <li>
+                    <li>
                         <Link href={"/matematyka"} className="text-blue-500">Matematyka</Link>
-                    </li> */}
+                    </li>
                     <li>
                         <Link href={"/co-i-jak"} className="text-blue-500">Co i jak</Link>
+                    </li>
+                    <li>
+                        <Link href={"/losowanie"} className="text-blue-500">Losowanie zadań do przerobienia</Link>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import Accordion from '@/components/Accordion';
-import useNotes from '@/hooks/useNotes';
+import useNotes from '@/hooks/useOpracowaniaNotes';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 

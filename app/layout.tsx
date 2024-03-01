@@ -11,11 +11,7 @@ export const metadata: Metadata = {
     description: 'Strona z powturką do matury',
 }
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
             <head>
@@ -45,6 +41,9 @@ export default function RootLayout({
                                     <a href="/informatyka" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Informatyka</a>
                                 </li>
                                 <li>
+                                    <a href="/matematyka" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Matematyka</a>
+                                </li>
+                                <li>
                                     <a href="/polski" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Polski</a>
                                 </li>
                                 <li>
@@ -56,6 +55,7 @@ export default function RootLayout({
                             </ul>
                         </div>
                         <MobileNav></MobileNav>
+
                     </div>
                 </nav>
 
