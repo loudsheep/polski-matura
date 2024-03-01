@@ -22,13 +22,29 @@ const colorForStatus = (status: undefined | "done" | "to_revision" | "too_hard")
 };
 
 export default function ListaPage(props: ListaProps) {
-    const [getTableData, addTask, getList, getDetails, editStatus] = useRandomTask("losowe_zadania");
+    const [getTableData, addTask, getList, getDetails, editStatus, deleteList, getListNotDoneTasks] = useRandomTask("losowe_zadania");
     const [listDetails, setListDetails] = useState<TasksObject | null | "loading">("loading");
     const [seed, setSeed] = useState<number>(0);
 
-    const selectStatus = (rangeIdx: number, taskIdx: number, newStatus: "done" | "to_revision" | "too_hard") => {
+    const selectStatus = (rangeIdx: number, taskIdx: string, newStatus: "done" | "to_revision" | "too_hard") => {
         editStatus(props.params.listaId, rangeIdx, taskIdx, newStatus);
-        setSeed(Math.round(Math.random() * 1_000_000_000));
+        // setSeed(Math.round(Math.random() * 1_000_000_000));
+    };
+
+    const cardSetStatus = (taskId: string, status: "done" | "to_revision" | "too_hard") => {
+
+        console.log("SETTIN STATUS1");
+        if (listDetails == null || listDetails == "loading") return;
+        console.log("SETTIN STATUS2");
+
+        for (let r = 0; r<listDetails.ranges.length; r ++) {
+            for (const task of listDetails.ranges[r].tasks) {
+                if (task.number == taskId) {
+                    editStatus(props.params.listaId, r, taskId, status);
+                }
+            }
+        }
+
     };
 
     useEffect(() => {
@@ -56,7 +72,7 @@ export default function ListaPage(props: ListaProps) {
             </div>
 
             {getDetails(listDetails.id)?.numTasks != getDetails(listDetails.id)?.done && (
-                <RandomTaskCard listId={listDetails.id} key={seed}></RandomTaskCard>
+                <RandomTaskCard listId={listDetails.id} getListNotDoneTasks={getListNotDoneTasks} setNewStatus={cardSetStatus} key={seed}></RandomTaskCard>
             )}
 
             {/* <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2">Pokaż losowe zadanie</button> */}
@@ -80,7 +96,7 @@ export default function ListaPage(props: ListaProps) {
                                             {value.number}
                                         </td>
                                         <td className={"px-6 py-4" + colorForStatus(value.status)}>
-                                            <select name="" id="" value={value.status} className="cursor-pointer" onChange={(e) => selectStatus(idx, idx2, e.target.value as any)}>
+                                            <select name="" id="" value={value.status} className="cursor-pointer" onChange={(e) => selectStatus(idx, value.number, e.target.value as any)}>
                                                 <option value="">Wybierz</option>
                                                 <option value="done">Zrobione</option>
                                                 <option value="to_revision">Do powtórki</option>
