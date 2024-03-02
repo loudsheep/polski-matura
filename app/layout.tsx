@@ -7,8 +7,21 @@ import MobileNav from '@/components/MobileNav';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+    metadataBase: new URL(process.env.BASE_PATH ?? ""),
     title: 'Matura - powtórka',
-    description: 'Strona z powturką do matury',
+    description: 'Strona z powtórką do matury',
+    openGraph: {
+        title: 'Matura - powtórka',
+        description: 'Strona z powtórką do matury',
+        images: process.env.BASE_PATH + "/preview.png",
+        url: process.env.BASE_PATH
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Matura - powtórka',
+        description: 'Strona z powtórką do matury',
+        images: process.env.BASE_PATH + "/preview.png",
+    }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
