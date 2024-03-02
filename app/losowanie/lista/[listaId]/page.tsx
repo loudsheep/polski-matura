@@ -75,8 +75,6 @@ export default function ListaPage(props: ListaProps) {
                 <RandomTaskCard listId={listDetails.id} getListNotDoneTasks={getListNotDoneTasks} setNewStatus={cardSetStatus} key={seed}></RandomTaskCard>
             )}
 
-            {/* <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2">Pokaż losowe zadanie</button> */}
-
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                 <table className="w-full text-sm text-left rtl:text-right text-gray-500">
                     <tbody>
