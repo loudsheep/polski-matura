@@ -8,7 +8,7 @@ export default function PolskiPage() {
             <div className="w-full md:w-1/2">
                 <ul className="list-disc">
                     <li>
-                        <Link href={"/polski/epoki/w-skrocie"} className="text-blue-500">Epoki literackie w skrócie</Link>
+                        <Link href={"/polski/epoki/"} className="text-blue-500">Epoki literackie</Link>
                     </li>
                     <li>
                         <Link href={"/polski/postacie"} className="text-blue-500">Najważniejsze postacie z lektur</Link>
