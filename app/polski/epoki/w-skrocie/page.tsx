@@ -25,7 +25,7 @@ export default function EpokiWSkrociePage() {
             <h1 className='text-center text-3xl font-bold my-10'>Epoki literackie w skrócie</h1>
             <div className='mb-10 pb-5 border-b'>
                 <img src="/image/czasyEpok.png" alt="Linia czasu epok literackich" className="rounded-lg" />
-                <p className='text-center text-gray-400 text-opacity-75'>Oś czasu trwania poszczególnych epok</p>
+                <p className='text-center text-gray-400 text-opacity-75'>Oś czasu trwania poszczególnych epok (w Polsce)</p>
             </div>
 
             {jsonData && jsonData.map((value: any, idx: any) => (
