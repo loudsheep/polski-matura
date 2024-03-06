@@ -20,7 +20,7 @@ export default function AntykPage(){
     // })
     return (
         <div className="w-3/4 mx-auto flex flex-col items-center">
-            <h1 className="text-2xl font-bold my-10">(Na razie na sztywno ;-;) Co tam chcesz się dowiedzieć z Antyku? Poniżej znajdziesz najważniejsze zagadnienia</h1>
+            <h1 className="text-2xl font-bold my-10">Co tam chcesz się dowiedzieć z Antyku? Poniżej znajdziesz najważniejsze zagadnienia</h1>
 
             <div className="w-full md:w-1/2">
                 <ul className="list-disc">
