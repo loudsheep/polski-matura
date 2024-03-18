@@ -11,7 +11,7 @@ type AntykTopicProps = {
 
 const getTopicMetadata = (topic: string, subTopic: string): string | null => {
     const folder = `public/data/epoki/topics/${topic}/`;
-    const file = folder + subTopic + ".md";
+    const file = folder + decodeURI(subTopic) + ".md";
     try {
         const content = fs.readFileSync(file, "utf8");
         return content
@@ -22,7 +22,7 @@ const getTopicMetadata = (topic: string, subTopic: string): string | null => {
 
 export default function AntykTopicPage(props: AntykTopicProps) {
     const content = getTopicMetadata(props.params.topic, props.params.subTopic);
-
+    
     if (content == null) {
         return notFound();
     }

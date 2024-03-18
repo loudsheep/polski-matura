@@ -20,7 +20,7 @@ export default function AntykPage(props: TopicProps) {
                 <ul className="list-disc">
                     {links.map((value, idx) => (
                         <li key={idx}>
-                            <Link href={`antyk/${value.link}`} className="text-blue-500">{value.name}</Link>
+                            <Link href={`${props.params.topic}/${value.link}`} className="text-blue-500">{value.name}</Link>
                         </li>
                     ))}
                 </ul>

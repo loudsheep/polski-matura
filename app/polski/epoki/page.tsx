@@ -21,9 +21,6 @@ export default function PolskiPageEpoki() {
                     <li>
                         <Link href={"/polski/epoki/w-skrocie"} className="text-blue-500">Epoki literackie w skrócie</Link>
                     </li>
-                    {/* <li>
-                        <Link href={"/polski/epoki/antyk"} className="text-blue-500">Co nieco o Antyku</Link>
-                    </li> */}
 
                     {DeatiledRevision.map((value, idx) => (
                         <li key={idx}>
