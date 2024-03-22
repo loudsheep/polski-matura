@@ -6,6 +6,10 @@ const TimeLeft = dynamic(() => import("@/components/TimeLeft"), {
     ssr: false,
 });
 
+const CustomTimeLeft = dynamic(() => import("@/components/CustomTimeLeft"), {
+    ssr: false,
+});
+
 export default function Home() {
     return (
         <div className="w-11/12 md:w-5/6 lg:w-3/4 xl:w-1/2 mx-auto flex-col items-center pt-12">
@@ -35,8 +39,12 @@ export default function Home() {
             </div>
 
             <h2 className='mt-10 font-bold text-xl border-b mb-5'>Zostało do matury</h2>
-            <div className='mb-20'>
+            <div className=''>
                 <TimeLeft></TimeLeft>
+            </div>
+
+            <div className='mb-20'>
+                <CustomTimeLeft></CustomTimeLeft>
             </div>
         </div>
     )
