@@ -11,6 +11,8 @@ const DAY = HOUR * 24;
 type ShiftingCountdownProps = {
     countdownDateTo: string,
     title: string,
+    deleteOption?: boolean,
+    onDelete?: () => void,
 };
 
 const ShiftingCountdown = (props: ShiftingCountdownProps) => {
@@ -50,7 +52,7 @@ const ShiftingCountdown = (props: ShiftingCountdownProps) => {
     };
 
     return (
-        <div className="p-4 w-full md:w-1/2">
+        <div className="p-4 w-full md:w-1/2" onClick={() => { if (props.deleteOption && props.onDelete) props.onDelete() }}>
             <p className="w-full 3xl:w-3/4 max-w-5xl mx-auto flex items-center">
                 {props.title}
             </p>

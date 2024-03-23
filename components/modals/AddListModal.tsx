@@ -9,10 +9,6 @@ type AddListModalProps = {
     addTask: (name: string, list: TaskRange[]) => void,
 };
 
-type TaskList = {
-
-};
-
 export default function AddListModal(props: AddListModalProps) {
     const [name, setName] = useState<string>("");
     const [ranges, setRanges] = useState<ListRange>(new ListRange());

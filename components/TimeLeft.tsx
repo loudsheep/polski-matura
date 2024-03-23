@@ -1,3 +1,4 @@
+"use client";
 import ShiftingCountdown from './ShiftingCountdown';
 
 interface Exam {
