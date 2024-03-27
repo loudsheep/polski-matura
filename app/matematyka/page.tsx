@@ -10,6 +10,9 @@ export default function MatematykaPage() {
                     <li>
                         <Link href={"/matematyka/liczby-zbiory"} className="text-blue-500">Liczby rzeczywiste, zbiory</Link>
                     </li>
+                    <li>
+                        <Link href={"/matematyka/funkcje"} className="text-blue-500">Funkcje</Link>
+                    </li>
                 </ul>
             </div>
         </div>
