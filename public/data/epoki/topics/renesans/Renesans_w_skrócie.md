@@ -1,4 +1,6 @@
-﻿# Humanizm renesansowy  
+﻿
+
+# Humanizm renesansowy  
  prąd umysłowy epoki renesansu, który koncentrował się na człowieku. Ruch ten zmierzał do odrodzenia kultury starożytnej, między innymi poprzez badanie jej dorobku filozoficznego, literackiego i artystycznego
 
 # Antropocentryzm  
