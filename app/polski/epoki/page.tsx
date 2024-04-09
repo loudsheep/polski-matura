@@ -9,6 +9,7 @@ type DetailedRevisionType = {
 const DeatiledRevision: DetailedRevisionType[] = [
     { linkName: "Więcej Antyku", pageHeader: "Co tam chcesz się dowiedzieć z Antyku? Poniżej znajdziesz najważniejsze zagadnienia", directory: "antyk" },
     { linkName: "Co chcesz wiedzieć o Średniowieczu bratku?", pageHeader: "Co tam chcesz się dowiedzieć ze Średniowiecza? Poniżej znajdziesz najważniejsze zagadnienia", directory: "sredniowiecze" },
+    { linkName: "Renesans", pageHeader: "Kilka informacji o Renesansie", directory: "renesans" },
 ];
 
 export default function PolskiPageEpoki() {
